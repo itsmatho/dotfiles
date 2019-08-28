@@ -13,17 +13,17 @@ let g:colors_name = "elflord_better"
 hi Normal	    term=NONE       ctermfg=White       guifg=Cyan			guibg=black
 hi Comment	    term=bold       ctermfg=DarkCyan	guifg=#80a0ff
 hi Constant	    term=underline  ctermfg=Magenta		guifg=Magenta
-hi Special      term=bold       ctermfg=DarkMagenta	guifg=Red
-hi Identifier   term=underline  ctermfg=Cyan        guifg=#40ffff
+hi Special      term=bold       ctermfg=LightCyan   guifg=LightCyan
+hi Identifier   cterm=NONE term=underline  ctermfg=Cyan        guifg=#40ffff
 hi Statement    term=bold       ctermfg=Yellow      guifg=#aa4444   gui=bold
 hi PreProc	    cterm=bold      ctermfg=LightBlue	guifg=#ff80ff
 hi Type	        term=underline  ctermfg=LightGreen	guifg=#60ff60   gui=bold
-hi Function	    term=bold       ctermfg=LightGrey   guifg=LightGrey
+hi Function	    term=bold       ctermfg=Blue        guifg=Blue
 hi Operator	    term=NONE		ctermfg=Red         guifg=Red
 hi Ignore       term=NONE       ctermfg=Brown       guifg=bg
-hi Error	    term=reverse    ctermfg=White       ctermbg=Red     guibg=Red   guifg=White
+hi Error	    term=reverse    ctermfg=White       ctermbg=Red     guifg=White guibg=Red
 hi Todo	        term=standout   ctermfg=Black       ctermbg=Yellow  guifg=Blue  guibg=Yellow
-hi ControlBlk   term=bold       ctermfg=LightBlue   guifg=Blue
+hi ControlBlk   term=bold       ctermfg=LightBlue   guifg=LightBlue
 
 " Common groups that link to default highlighting.
 " You can specify other highlighting easily.
