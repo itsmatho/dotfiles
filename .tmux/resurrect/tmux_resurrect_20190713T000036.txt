@@ -1,0 +1,28 @@
+pane	euler	0	:bash	1	:*	0	:/home/mat/project-euler/p38	0	bash	:
+pane	euler	0	:bash	1	:*	1	:/home/mat/project-euler/p38	1	vim	:vim p38.py
+pane	go	0	:bash	1	:*	0	:/home/mat/gnugo/interface/gtp_examples	0	bash	:
+pane	go	0	:bash	1	:*	1	:/home/mat/gnugo/interface/gtp_examples	1	bash	:
+pane	mcts	0	:bash	0	:	0	:/home/mat/projects/mcts	0	bash	:
+pane	mcts	0	:bash	0	:	1	:/home/mat/projects/mcts	0	bash	:
+pane	mcts	0	:bash	0	:	2	:/home/mat/projects/mcts	1	vim	:vim mcts2_1_5_4_2_2.py
+pane	mcts	1	:bash	1	:*	0	:/home/mat/projects/go	1	bash	:
+pane	mcts	1	:bash	1	:*	1	:/home/mat/projects/go	0	vim	:vim go.py
+pane	mcts	2	:bash	0	:-	0	:/home/mat/test	0	vim	:vim numpy_tuplecast.py
+pane	mcts	2	:bash	0	:-	1	:/home/mat/test	1	bash	:
+pane	search	0	:vim	1	:*	0	:/home/mat/cse/cse150/pa1/w19pa1	0	bash	:
+pane	search	0	:vim	1	:*	1	:/home/mat/cse/cse150/pa1/w19pa1	1	bash	:
+pane	shapes	0	:bash	1	:*	0	:/home/mat/pantry	1	bash	:
+pane	shapes	0	:bash	1	:*	1	:/home/mat/pantry	0	bash	:
+pane	shapes	0	:bash	1	:*	2	:/home/mat/pantry/colorspaces	0	bash	:
+pane	themes	0	:vim	1	:*	0	:/home/mat/.themes/Ant-Dracula-modified/gnome-shell	0	bash	:
+pane	themes	0	:vim	1	:*	1	:/home/mat/.themes/Ant-Dracula-modified/gnome-shell	0	bash	:
+pane	themes	0	:vim	1	:*	2	:/home/mat/.themes/Ant-Dracula-modified	1	bash	:
+window	euler	0	1	:*	fb01,211x59,0,0{105x59,0,0,1,105x59,106,0,2}
+window	go	0	1	:*	fb04,211x59,0,0{105x59,0,0,3,105x59,106,0,4}
+window	mcts	0	0	:	f1c7,211x59,0,0{107x59,0,0[107x29,0,0,5,107x29,0,30,6],103x59,108,0,7}
+window	mcts	1	1	:*	837c,211x59,0,0{106x59,0,0,8,104x59,107,0,9}
+window	mcts	2	0	:-	7e8c,211x59,0,0{105x59,0,0,54,105x59,106,0,57}
+window	search	0	1	:*	7e85,211x59,0,0{105x59,0,0,10,105x59,106,0,11}
+window	shapes	0	1	:*	f795,211x59,0,0{105x59,0,0,12,105x59,106,0[105x29,106,0,13,105x29,106,30,14]}
+window	themes	0	1	:*	481a,211x59,0,0{105x59,0,0[105x29,0,0,15,105x29,0,30,16],105x59,106,0,17}
+state	mcts	

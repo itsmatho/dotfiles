@@ -1,0 +1,2000 @@
+#1565913732
+cd modelsim/
+#1565913732
+ls
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+cd output_files/
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+cd ..
+#1565913732
+git diff bitcoin_hash.sv
+#1565913732
+git stash
+#1565913732
+git checkout actual-parallel
+#1565913732
+git pull
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t tuas
+#1565913732
+ls
+#1565913732
+cd ece/
+#1565913732
+ls
+#1565913732
+cd ece111/project4/
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git pull
+#1565913732
+git stash
+#1565913732
+git pull
+#1565913732
+ls
+#1565913732
+cd Project\ 4/
+#1565913732
+ls
+#1565913732
+git checkout master
+#1565913732
+ls
+#1565913732
+git pull
+#1565913732
+vim bitcoin_hash
+#1565913732
+vim bitcoin_hash.
+#1565913732
+vim bitcoin_hash.sv 
+#1565913732
+git status
+#1565913732
+git add bitcoin_hash.sv 
+#1565913732
+git commit -m "slightly more efficient in area*delay"
+#1565913732
+git push
+#1565913732
+tmux 
+#1565913732
+top
+#1565913732
+python
+#1565913732
+python
+#1565913732
+python sudoku.py 
+#1565913732
+python hexadoku.py 
+#1565913732
+man git-commit
+#1565913732
+cd hexadoku/
+#1565913732
+ls
+#1565913732
+vim hexa1.txt 
+#1565913732
+vim hexa0.txt 
+#1565913732
+vim hexa1.txt 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim hexadoku_problems.txt 
+#1565913732
+vim easy_sudoku_problems.py
+#1565913732
+vim hexadoku_problems.txt 
+#1565913732
+git status
+#1565913732
+git mv hexadoku_problems.txt hexadoku_problems.py
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+vim hexadoku_problems.py 
+#1565913732
+python hexadoku.py 
+#1565913732
+python
+#1565913732
+python hexadoku.py 
+#1565913732
+git status
+#1565913732
+git add hexadoku.py hexadoku_problems.py 
+#1565913732
+git status
+#1565913732
+git commit -m "hexadoku"
+#1565913732
+vim Makefile 
+#1565913732
+make
+#1565913732
+python hexadoku.py 
+#1565913732
+python sudoku.py 
+#1565913732
+git status
+#1565913732
+git add Makefile 
+#1565913732
+git commit -m "make zip with hexadoku"
+#1565913732
+git commit -a
+#1565913732
+python hexadoku.py 
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git commit --amend
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git add hexadoku
+#1565913732
+git commit --amend
+#1565913732
+git status
+#1565913732
+git log
+#1565913732
+git reset HEAD~
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status'
+#1565913732
+git status
+#1565913732
+git commit -a
+#1565913732
+git status
+#1565913732
+./configure.sh 
+#1565913732
+ls
+#1565913732
+vim makefile
+#1565913732
+make
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+ls
+#1565913732
+cd mycnf/
+#1565913732
+lks
+#1565913732
+ls
+#1565913732
+ls -l
+#1565913732
+vim hard0.cnf 
+#1565913732
+cd ..
+#1565913732
+git status
+#1565913732
+ls -ldh mycnf/
+#1565913732
+du -h mycnf/
+#1565913732
+cd mycnf/
+#1565913732
+ls
+#1565913732
+rm hex_hard*
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+man ls
+#1565913732
+man zip
+#1565913732
+python
+#1565913732
+cd ../w19pa5\ \(2\)/
+#1565913732
+ls
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+ls
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=V2CyxncI05Y
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=aadQcVEKdI4 DROELOE
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=X94mGtAq2Gg
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=2LGI2k4NWnM "DROELOE x San Holo"
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=EuDzvfmuPhQ
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=SX7EZM3363U
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=x8nagi2oIds
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=zHchkVfkjBI
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=tfVIotbxeWk
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=7lf7L-71c_4
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=okNO2O9RI-w "Jeff Bernat"
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=_MlYUgZnZcU "Jeff Bernat"
+#1565913732
+top
+#1565913732
+vim sudoku.py
+#1565913732
+vim sudoku.py 
+#1565913732
+cp sudoku.py hexadoku.py
+#1565913732
+vim hexadoku
+#1565913732
+vim hexadoku.py 
+#1565913732
+vim sudoku-with-sat.py
+#1565913732
+cd ..
+#1565913732
+./picosat w19pa5/cnf/hard1.cnf 
+#1565913732
+git status
+#1565913732
+cd w19pa5/
+#1565913732
+ls
+#1565913732
+cd cnf/
+#1565913732
+ls
+#1565913732
+vim hard1.cnf 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+./picosat w19pa5/cnf/easy0.cnf 
+#1565913732
+./picosat w19pa5/mycnf/easy0.cnf 
+#1565913732
+./picosat w19pa5/mycnf/easy1.cnf 
+#1565913732
+./picosat w19pa5/mycnf/hard0.cnf 
+#1565913732
+./picosat w19pa5/mycnf/hex_hard0.cnf 
+#1565913732
+./picosat w19pa5/mycnf/*
+#1565913732
+cd w19pa5/cnf/
+#1565913732
+../../picosat hard1.cnf 
+#1565913732
+../../picosat $(ls)
+#1565913732
+cd ..
+#1565913732
+ls -C
+#1565913732
+ls -1
+#1565913732
+cd mycnf/
+#1565913732
+../../picosat $(ls -1)
+#1565913732
+../../picosat easy0.cnf 
+#1565913732
+../../picosat easy10.cnf 
+#1565913732
+../../picosat hard4.cnf 
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+wc hex_hard0.cnf 
+#1565913732
+../../picosat hex_hard
+#1565913732
+../../picosat hex_hard0.cnf 
+#1565913732
+vim hex_hard0.cnf 
+#1565913732
+../../picosat hex_hard0.cnf 
+#1565913732
+../../picosat hard0.cnf 
+#1565913732
+vim hard0.cnf 
+#1565913732
+../../picosat hard1.cnf 
+#1565913732
+../../picosat hard2.cnf 
+#1565913732
+../../picosat hard3.cnf 
+#1565913732
+git status
+#1565913732
+../../picosat hard1.cnf 
+#1565913732
+../../picosat hard3.cnf 
+#1565913732
+../../picosat hard7.cnf 
+#1565913732
+../../picosat hard0.cnf 
+#1565913732
+../../picosat hex_hard0.cnf 
+#1565913732
+../../picosat -v hex_hard0.cnf 
+#1565913732
+../../picosat -vv hex_hard0.cnf 
+#1565913732
+../../picosat -h hex_hard0.cnf 
+#1565913732
+../../picosat hex_hard0.cnf 
+#1565913732
+../../picosat hex_hard0.cnf > hex01
+#1565913732
+../../picosat hex_hard0.cnf > hex00
+#1565913732
+diff hex00 hex01 
+#1565913732
+../../picosat hex_hard0.cnf 
+#1565913732
+rm hex00 hex01
+#1565913732
+vim hard_sudoku_problems.txt 
+#1565913732
+python sudoku.py 
+#1565913732
+git status
+#1565913732
+git add sudoku.py 
+#1565913732
+git commit -m "both easy work"
+#1565913732
+python sudoku.py 
+#1565913732
+ls
+#1565913732
+vim hard_sudoku_problems.txt 
+#1565913732
+vim easy_sudoku_problems.txt 
+#1565913732
+python sudoku.py 
+#1565913732
+vim easy_sudoku_problems.txt 
+#1565913732
+python sudoku.py 
+#1565913732
+vim easy_sudoku_problems.txt 
+#1565913732
+git status
+#1565913732
+git mv easy_sudoku_problems.txt easy_sudoku_problems.py
+#1565913732
+git mv hard_sudoku_problems.txt hard_sudoku_problems.py
+#1565913732
+ls
+#1565913732
+vim easy_sudoku_problems.py 
+#1565913732
+vim hard_sudoku_problems.py 
+#1565913732
+vim easy_sudoku_problems.py 
+#1565913732
+python sudoku.py 
+#1565913732
+cd cnf/
+#1565913732
+ls
+#1565913732
+vim hard1.cnf 
+#1565913732
+cd ..
+#1565913732
+python sudoku.py 
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+git status
+#1565913732
+git add easy_sudoku_problems.py hard_sudoku_problems.py
+#1565913732
+git status
+#1565913732
+git commit -m "changed sudoku problems to python files"
+#1565913732
+git status
+#1565913732
+python sudoku.py 
+#1565913732
+git add sudoku.py 
+#1565913732
+git commit -m "all easy and hard work"
+#1565913732
+make
+#1565913732
+git add Makefile 
+#1565913732
+git commit -m "make zip"
+#1565913732
+git status
+#1565913732
+vim .gitignore
+#1565913732
+git status
+#1565913732
+git add .gitignore
+#1565913732
+git status
+#1565913732
+git commit -m "gitignore"
+#1565913732
+git status
+#1565913732
+python sudoku.py 
+#1565913732
+git status
+#1565913732
+git add sudoku.py 
+#1565913732
+git commit -m "using grid more"
+#1565913732
+make
+#1565913732
+python sudoku.py 
+#1565913732
+git status
+#1565913732
+git add sudoku.py 
+#1565913732
+git diff --staged
+#1565913732
+git commit -m "comments and small optimizations"
+#1565913732
+python sudoku.py 
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git add sudoku.py 
+#1565913732
+git commit -m "set function semantics to 'consistent' and 'infer'"
+#1565913732
+python sudoku.py 
+#1565913732
+make
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+python sudoku.py 
+#1565913732
+git diff
+#1565913732
+git log
+#1565913732
+git diff f49
+#1565913732
+git diff f49306d57154b17fab05eac4dbb2c3146353d9b
+#1565913732
+python sudoku.py 
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git add sudoku.py 
+#1565913732
+git commit -m "lists are much faster than dicts"
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+mv picosat-965/ ..
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cp picosat-965/picosat .
+#1565913732
+ls
+#1565913732
+cd w19pa5/
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+rm -rf hexadoku
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+python sudoku.py 
+#1565913732
+python hexadoku
+#1565913732
+python hexadoku.py 
+#1565913732
+git diff
+#1565913732
+git commit -a
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+ls
+#1565913732
+cd cnf/
+#1565913732
+ls
+#1565913732
+diff easy0.cnf hard1.cnf 
+#1565913732
+vim easy0.cnf 
+#1565913732
+ls
+#1565913732
+rm easy0.cnf 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+mkdir mycnf
+#1565913732
+ls
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+cd cnf/
+#1565913732
+ls
+#1565913732
+vim hard1.cnf 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+ls
+#1565913732
+cd mycnf/
+#1565913732
+ls
+#1565913732
+wc hex_hard
+#1565913732
+wc hex_hard0.cnf 
+#1565913732
+git status
+#1565913732
+cd ..
+#1565913732
+git status
+#1565913732
+git add Makefile mycnf/ sudoku-with-sat.py 
+#1565913732
+git status
+#1565913732
+git commit -m "sudoku cnf converter seems to work fine"
+#1565913732
+git status
+#1565913732
+make
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+cd mycnf/
+#1565913732
+vim hex_hard0.cnf 
+#1565913732
+cd ..
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+git status
+#1565913732
+git diff Makefile
+#1565913732
+git add Makefile 
+#1565913732
+git commit -m "make zip with recursive zipping"
+#1565913732
+git diff sudoku-with-sat.py
+#1565913732
+git add sudoku-with-sat.py 
+#1565913732
+git commit -m "reduce repeated clauses"
+#1565913732
+git status
+#1565913732
+git add hexadoku-with-sat.py 
+#1565913732
+git commit -m "WIP: hexadoku with sat has too many clauses"
+#1565913732
+git diff *-with-sat.py
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+git status
+#1565913732
+git add sudoku-with-sat.py hexadoku-with-sat.py 
+#1565913732
+git status
+#1565913732
+git diff --staged
+#1565913732
+git status
+#1565913732
+git commit -m "indexing var names"
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+git commit -m "indexing var names"
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+git diff hexadoku-with-sat.py
+#1565913732
+git add hexadoku-with-sat.py 
+#1565913732
+git commit -m "forgot that the stupid picosat ended clauses with a 0"
+#1565913732
+git status
+#1565913732
+git add Makefile 
+#1565913732
+git diff --staged
+#1565913732
+git commit -m "make zip with hexadoku with sat"
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+git status
+#1565913732
+git add -A
+#1565913732
+git status
+#1565913732
+git commit
+#1565913732
+make
+#1565913732
+python picosat_parser.py 
+#1565913732
+python picosat_parser.py 9
+#1565913732
+python picosat_parser.py 9 mycnf/hard0.cnf 
+#1565913732
+python picosat_parser.py 9 cnf/hard1.cnf
+#1565913732
+python picosat_parser.py 9 mycnf/hard0.cnf 
+#1565913732
+git status
+#1565913732
+python picosat_parser.py 9 mycnf/hard0.cnf 
+#1565913732
+python picosat_parser.py 9 mycnf/hard0.cnf -v
+#1565913732
+python picosat_parser.py 9 mycnf/hard0.cnf
+#1565913732
+python picosat_parser.py 16 mycnf/hex_hard0.cnf 
+#1565913732
+python picosat_parser.py 16 mycnf/hex_hard0.cnf mycnf/hex_hard1.cnf 
+#1565913732
+git status
+#1565913732
+python sudoku-with-sat.py 
+#1565913732
+python hexadoku-with-sat.py 
+#1565913732
+python picosat_parser.py 16 mycnf/hex_hard0.cnf 
+#1565913732
+git status
+#1565913732
+git diff hexadoku-with-sat.py
+#1565913732
+python picosat_parser.py 16 mycnf/hex_hard0.cnf 
+#1565913732
+python picosat_parser.py 16 mycnf/hex_hard0.cnf mycnf/hex_hard1.cnf mycnf/hex_hard2.cnf 
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git add hexadoku-with-sat.py 
+#1565913732
+git commit -m "reduce num clauses"
+#1565913732
+git status
+#1565913732
+git add picosat_parser.py 
+#1565913732
+git commit -m "run picosat and parse output into ndoku grid"
+#1565913732
+git status
+#1565913732
+git add mycnf/hex_hard*
+#1565913732
+git status
+#1565913732
+git commit -m "hex cnf output"
+#1565913732
+git status
+#1565913732
+make
+#1565913732
+cd cnf/
+#1565913732
+ls
+#1565913732
+vim hard1.cnf 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+nautilus .
+#1565913732
+ls
+#1565913732
+cd w19pa5/mycnf/
+#1565913732
+ls
+#1565913732
+vim hex_hard0.cnf 
+#1565913732
+ls
+#1565913732
+cd cse/cse150/pa5/
+#1565913732
+ls
+#1565913732
+cd w19pa5/
+#1565913732
+ls
+#1565913732
+python sudoku.py 
+#1565913732
+ls
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t sudoku
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+vim asdf 
+#1565913732
+rm asdf
+#1565913732
+ls
+#1565913732
+cd snap/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd testfiles/
+#1565913732
+ls
+#1565913732
+vim prob_
+#1565913732
+vim prob_test.py 
+#1565913732
+vim prob_calc_cse151_hw3.py 
+#1565913732
+ls -l prob_calc_cse151_hw3.py 
+#1565913732
+vim min_token_bucket.py 
+#1565913732
+vim scheduling.py 
+#1565913732
+vim if_test.sh 
+#1565913732
+vim nth_prime.py 
+#1565913732
+vim recursive_ece101_2-31.py 
+#1565913732
+vim fair_queue.py 
+#1565913732
+vim estimate_exp.py 
+#1565913732
+python estimate_exp.py 
+#1565913732
+vim estimate_exp.py 
+#1565913732
+vim estimate_inf_sum.py 
+#1565913732
+python estimate_inf_sum.py 
+#1565913732
+vim estimate_rms_util.py 
+#1565913732
+python estimate_rms_util.py 
+#1565913732
+vim colinearity.py 
+#1565913732
+python colinearity.py 
+#1565913732
+vim colinearity.py 
+#1565913732
+ls
+#1565913732
+cp min_token_bucket.py fermat_last_theorem_real.py
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+python fermat_last_theorem_real.py 
+#1565913732
+vim fermat_last_theorem_real.py 
+#1565913732
+tmux
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=XNPCQaIQdEA
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=SLjXz9ghUtk
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=LyC81Hhz3-4 "Tom Misch"
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Iu9MVgMYrEY
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=oMIC0HSkcdk
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ZscBW9g21GY
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=_rRVQZBDaVs
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=bky7uovaM0w
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=1DMJq0VRPx8
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=UviEgdNu3ZM
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=NwJTg2gq5Xs
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=lfABjnjmgwM
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Meyz5JbQTzU
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=BNiczd_pEt8
+#1565913732
+gnome-shell --version
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=4FXS6bUcSM4 "BXRBER x JNTHN STEIN"
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=57WrG5YhJfE
+#1565913732
+top
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=D0i23wZ0IeE
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=lF8sDvqZMQ8
+#1565913732
+get-youtube-mp3.sh https://soundcloud.com/whosem/lorde
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=MCGMm5BD-vk
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=nmGvqRfo3VA
+#1565913732
+ping 192.168.1.3
+#1565913732
+ssh broach@192.168.1.3
+#1565913732
+ls
+#1565913732
+ping 192.168.1.3
+#1565913732
+ssh broach@192.168.1.3
+#1565913732
+top
+#1565913732
+ls
+#1565913732
+cd markov-chain/
+#1565913732
+ls
+#1565913732
+cd data/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim multiword_mc.js 
+#1565913732
+nodejs multiword_mc.js 
+#1565913732
+vim multiword_mc.js 
+#1565913732
+vim simple_mc.js 
+#1565913732
+nodejs simple_mc.js 
+#1565913732
+vim ism
+#1565913732
+vim simple_mc.js 
+#1565913732
+nodejs simple_mc.js 
+#1565913732
+vim simple_mc.js 
+#1565913732
+nodejs simple_mc.js 
+#1565913732
+vim simple_mc.js 
+#1565913732
+ls
+#1565913732
+cd cse/cse150/
+#1565913732
+ls
+#1565913732
+cd pa1/
+#1565913732
+ls
+#1565913732
+cd w19pa1/
+#1565913732
+ls
+#1565913732
+tmux
+#1565913732
+ls
+#1565913732
+ls -ld Music/
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+ssh broach@192.168.1.3
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=47EbYNhjrJc
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=t1-mN3vCv90
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=jBnXPwvr0u4
+#1565913732
+gnome-shell --replace
+#1565913732
+man gnome-shell
+#1565913732
+w
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t mcts
+#1565913732
+w
+#1565913732
+gnome-shell --replace -d :0
+#1565913732
+man gnome-shell
+#1565913732
+DISPLAY=:0 gnome-shell --replace
+#1565913732
+DISPLAY=:1 gnome-shell --replace
+#1565913732
+sudo apt autoremove
+#1565913732
+sudo apt upgrade
+#1565913732
+sudo apt update
+#1565913732
+sudo apt list
+#1565913732
+sudo apt list --upgradable
+#1565913732
+sudo apt upgrade
+#1565913732
+sudo apt upgrade -a
+#1565913732
+sudo apt list --upgradable -a
+#1565913732
+tmux ls
+#1565913732
+reboot
+#1565913732
+python gomoku.py 
+#1565913732
+pip show numpy | grep Version
+#1565913732
+sudo -H pip install numpy
+#1565913732
+sudo -H pip2 install numpy
+#1565913732
+sudo -H pip2 install --upgrade pip
+#1565913732
+sudo -H pip3 install --upgrade pip
+#1565913732
+sudo -H pip2 install numpy
+#1565913732
+sudo -H pip3 install numpy
+#1565913732
+python3 gomoku.py 
+#1565913732
+python gomoku.py 
+#1565913732
+rm mcts2-1.py 
+#1565913732
+python gomoku.py 
+#1565913732
+ls
+#1565913732
+vim blackjack.py
+#1565913732
+cd ../..
+#1565913732
+cd pa3
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+cd pa2
+#1565913732
+ls
+#1565913732
+cd w19pa2/
+#1565913732
+ls
+#1565913732
+vim ai.py
+#1565913732
+cd ../../pa4/w19pa4/
+#1565913732
+ls
+#1565913732
+vim blackjack.py 
+#1565913732
+vim colors.json
+#1565913732
+vim _common.scss
+#1565913732
+sudo ./tagpush.py -i -r tritonuas/loggo tritonuas/loggo-webserver
+#1565913732
+vim docker-compose.all.yml
+#1565913732
+sudo docker ps -a
+#1565913732
+# install dependencies with glide
+#1565913732
+git status
+#1565913732
+git fetch
+#1565913732
+git status
+#1565913732
+grep mavlink *
+#1565913732
+vim glide.lock 
+#1565913732
+l
+#1565913732
+vim grpc_utils.go 
+#1565913732
+vim websocket.go 
+#1565913732
+ls
+#1565913732
+vim sim.go 
+#1565913732
+vim udp.go 
+#1565913732
+ls
+#1565913732
+sudo make build
+#1565913732
+sudo make build-hub-local
+#1565913732
+grep liamstask *
+#1565913732
+grep -r liamstask *
+#1565913732
+git status
+#1565913732
+git diff glide.yaml
+#1565913732
+glide update
+#1565913732
+mv glide.lock glide_backup.lock
+#1565913732
+glid update
+#1565913732
+glide update
+#1565913732
+ls
+#1565913732
+grep tritonuas glide.yaml 
+#1565913732
+grep tritonuas *
+#1565913732
+grep tritonuas/god *
+#1565913732
+ls
+#1565913732
+vim glide.yaml 
+#1565913732
+grep tritonuas/god *
+#1565913732
+ls
+#1565913732
+log
+#1565913732
+git log
+#1565913732
+grep -r tritonuas/god *
+#1565913732
+ls
+#1565913732
+rm -rf go-mavlink/
+#1565913732
+sudo rm -rf go-mavlink/
+#1565913732
+ls
+#1565913732
+glide update
+#1565913732
+grep tritonuas/go-mavlink *
+#1565913732
+glide
+#1565913732
+python
+#1565913732
+ls
+#1565913732
+cd projects/
+#1565913732
+ls
+#1565913732
+cd anh/
+#1565913732
+ls
+#1565913732
+ls -a
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+cd cashman/
+#1565913732
+ls
+#1565913732
+cd cashman/
+#1565913732
+ls
+#1565913732
+vim index.py 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim bootstrap.sh 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+rm -rf cashman/
+#1565913732
+ls
+#1565913732
+cd snap/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+snap
+#1565913732
+snap list
+#1565913732
+snap remove winds
+#1565913732
+ls
+#1565913732
+cd snap/
+#1565913732
+ls
+#1565913732
+cd winds/
+#1565913732
+ls
+#1565913732
+ls -l
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+cd snap/
+#1565913732
+ls -a
+#1565913732
+cd winds/
+#1565913732
+ls -a
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+rm -r snap
+#1565913732
+ls
+#1565913732
+ls test
+#1565913732
+cd hacktech2018/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+rm -r hacktech2018/
+#1565913732
+rm -rf hacktech2018/
+#1565913732
+ls
+#1565913732
+cd python-syntax/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd .vim/
+#1565913732
+ls
+#1565913732
+cd bundle/
+#1565913732
+ls
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+mkdir project-euler
+#1565913732
+cd project
+#1565913732
+cd project-euler/
+#1565913732
+ls
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t 8
+#1565913732
+tmux new -s euler
+#1565913732
+tmux ls
+#1565913732
+cd
+#1565913732
+tmux ls
+#1565913732
+sudo apt update
+#1565913732
+apt list --upgradable
+#1565913732
+sudo apt upgrade
+#1565913732
+git diff
+#1565913732
+ls
+#1565913732
+ls
+#1565913732
+make
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cp w19pa3.zip gomoku_mah069.zip 
+#1565913732
+unzip gomoku_mah069.zip 
+#1565913732
+ls
+#1565913732
+python gomoku.py 
+#1565913732
+vim Makefile
+#1565913732
+ls
+#1565913732
+sudo make
+#1565913732
+ls
+#1565913732
+vim mavwebsocket.py
+#1565913732
+vim Makefile
+#1565913732
+vim Dockerfile 
+#1565913732
+ls
+#1565913732
+python gridworld.py 
+#1565913732
+python gridworld_backup.py 
+#1565913732
+python gridworld.py 
+#1565913732
+python gridworld_backup.py 
+#1565913732
+git diff methods.py
+#1565913732
+vim Dockerfile.mavproxy
+#1565913732
+l
+#1565913732
+l -a
+#1565913732
+ls
+#1565913732
+vim tagpush.py
+#1565913732
+vim buildrepo.py
+#1565913732
+vim communicator.js
+#1565913732
+pipenv run ./run_mavserver.py 
+#1565913732
+./run_graphserver.sh 
+#1565913732
+vim Makefile
+#1565913732
+git log
+#1565913732
+ls
+#1565913732
+rm -rf go-mavlink/
+#1565913732
+ls -ld go-mavlink/
+#1565913732
+rm go-mavlink/
+#1565913732
+sudo rm go-mavlink/
+#1565913732
+sudo rm -r go-mavlink/
+#1565913732
+ls
+#1565913732
+make build
+#1565913732
+grep -r go-mavlink
+#1565913732
+vim mavlink.go 
+#1565913732
+sudo make build
+#1565913732
+sudo make build-hub-local
+#1565913732
+ls
+#1565913732
+vim glide.yaml 
+#1565913732
+sudo make build-hub-local
+#1565913732
+ls
+#1565913732
+vim glide.yaml 
+#1565913732
+glide
+#1565913732
+glide update
+#1565913732
+grep tritonuas/go-mavlink *
+#1565913732
+vim glide.lock 
+#1565913732
+glide
+#1565913732
+glid list
+#1565913732
+glide list
+#1565913732
+vim docker-compose.test-loggo.yml
+#1565913732
+grep -r 248
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git add mcts.py 
+#1565913732
+git commit -m "add grid caching, limit move searches only after second player goes once"
+#1565913732
+git diff
+#1565913732
+git diff mcts.py
+#1565913732
+ls
+#1565913732
+vim README.md 
+#1565913732
+vim results.md
+#1565913732
+vim results.md 
+#1565913732
+vim Makefile 
+#1565913732
+cd ..
+#1565913732
+cd go-mavlink/
+#1565913732
+ls
+#1565913732
+cd mavlink/
+#1565913732
+ls
+#1565913732
+vim ardupilotmega.go 
+#1565913732
+vim common.go 
+#1565913732
+cd definitions/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim message.go 
+#1565913732
+grep NewDecoder *
+#1565913732
+vim message.go 
+#1565913732
+ls
+#1565913732
+vim gridworld_backup.py 
+#1565913732
+vim board.py
+#1565913732
+vim Makefile
+#1565913732
+ls
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=PpkcvUIzNjg
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=pa98fVABnEU
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=UQ9SjwCnjq8
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ylLEEGHg1tY
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=FByWqJCUuBE "Forrest."
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=VeNSfyKIJVQ "Forrest."
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=1amdPTCKEqs
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=KdD19Of89tQ&list=PLtOQMVMmfdjDVsZrR2AJ_QG4noQZGCcnQ
+#1565913732
+ls
+#1565913732
+rm Surfaces\ -\ Beautiful\ Day\ \[Official\ Audio\]-KdD19Of89tQ.m4a 
+#1565913732
+ls
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=KdD19Of89tQ
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=kiDlwknFOrI
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=7h3F09BtRCQ
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=c7ORVVLb1uQ
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=LO1n7_TOUL8
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Rd_04KPCMpo
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Xt3m04Tscc8
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=rwCnnnl6zSA
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=xYKzKy5C5xc
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=u5P3iZT8Ad0
+#1565913732
+ps
+#1565913732
+kill 21164
+#1565913732
+ps
+#1565913732
+kill -9 21164
+#1565913732
+ps
+#1565913732
+ls
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=6-zRqxl5Gkk
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=UdUiMdQSVWY
+#1565913732
+tmux ls
+#1565913732
+tmux
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t 0
+#1565913732
+ls
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t 8
+#1565913732
+ls
+#1565913732
+vim blackjack.py
+#1565913732
+vim buildrepo.py
+#1565913732
+vim message.go 
+#1565913732
+sudo docker ps -a
+#1565913732
+vim docker-compose.test-loggo.yml
+#1565913732
+vim communicator.js
+#1565913732
+ls
+#1565913732
+ls
+#1565913732
+python gomoku.py 
+#1565913732
+grep -r 248
+#1565913732
+vim Makefile
+#1565913732
+vim Dockerfile
+#1565913732
+vim Makefile
+#1565913732
+vim _common.scss
+#1565913732
+git diff methods.py
+#1565913732
+vim colors.json
+#1565913732
+it log
+#1565913732
+glide list
+#1565913732
+ls
+#1565913732
+vim gridworld_backup.py
+#1565913732
+vim board.py
+#1565913732
+ls
+#1565913732
+cd project-euler/
+#1565913732
+ls
+#1565913732
+git init
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+mkdir p1
+#1565913732
+cd p1
+#1565913732
+ls
+#1565913732
+python p1.py 
+#1565913732
+git status
+#1565913732
+git add .
+#1565913732
+git status
+#1565913732
+git rm --cached .p1.py.swp 
+#1565913732
+git status
+#1565913732
+git commit -m "p1"
+#1565913732
+python p1.py 
+#1565913732
+git commit -m p1.py 
+#1565913732
+python p1.py 
+#1565913732
+git diff
+#1565913732
+git commit -a
+#1565913732
+git status
+#1565913732
+git commit -a --amend
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git diff HEAD~1
+#1565913732
+python p1.py 
+#1565913732
+python
+#1565913732
+python3 p1.py 
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+python p1.py 
+#1565913732
+git add p1.py 
+#1565913732
+git commit -m "fixed p1 bug so can calc for any # of multiples of prime numbers"
+#1565913732
+git status
+#1565913732
+git commit -a --amend
+#1565913732
+git diff HEAD~1
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+mkdir p2
+#1565913732
+cd p2
+#1565913732
+python p2.py 
+#1565913732
+cd ../p3
+#1565913732
+python p3.py 
+#1565913732
+git status
+#1565913732
+python p4.p
+#1565913732
+cd ../p4
+#1565913732
+python p4.py 
+#1565913732
+:w
+#1565913732
+python p4.py 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd p16
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+python p16
+#1565913732
+python p16.py 
+#1565913732
+cd ..
+#1565913732
+mkdir p17
+#1565913732
+cd p17
+#1565913732
+python p17.py 
+#1565913732
+mkdir ../p18
+#1565913732
+cd ../p18
+#1565913732
+python p18.py 
+#1565913732
+mkdir ../p67
+#1565913732
+cd p67
+#1565913732
+cd ../p67
+#1565913732
+wget https://projecteuler.net/project/resources/p067_triangle.txt
+#1565913732
+ls
+#1565913732
+python p67.py 
+#1565913732
+mkdir ../p19
+#1565913732
+cd ../p19
+#1565913732
+python p19.py 
+#1565913732
+mkdir ../p20
+#1565913732
+cd ../p20
+#1565913732
+python p20.py 
+#1565913732
+mkdir ../p21
+#1565913732
+cd ../p21
+#1565913732
+python p21.py 
+#1565913732
+mkdir test
+#1565913732
+cd test
+#1565913732
+cd ..
+#1565913732
+python p21.py 
+#1565913732
+ls
+#1565913732
+python p21.py 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+mkdir p22
+#1565913732
+cd p22
+#1565913732
+ls
+#1565913732
+wget https://projecteuler.net/project/resources/p022_names.txt
+#1565913732
+ls
+#1565913732
+python p22.py 
+#1565913732
+cd ..
+#1565913732
+mkdir p23
+#1565913732
+cd p23
+#1565913732
+vim p23.py
+#1565913732
+python p23.py 
+#1565913732
+cd ../p24
+#1565913732
+python p24.py 
+#1565913732
+cd ../p24
+#1565913732
+python p24.py 
+#1565913732
+cd ../p25
+#1565913732
+cd ..
+#1565913732
+mkdir p25
+#1565913732
+cd p25
+#1565913732
+python p25.py 
+#1565913732
+python p25.py
+#1565913732
+cd ../p26
+#1565913732
+python p26.py 
+#1565913732
+cd p27
+#1565913732
+cd ../p27
+#1565913732
+python p27.py 
+#1565913732
+cd ../p28
+#1565913732
+python p28.py 
+#1565913732
+cd p29
+#1565913732
+cd ../p29
+#1565913732
+python p29.py 
+#1565913732
+cd ../p3
+#1565913732
+cd ../p30
+#1565913732
+python p30.py 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+mkdir p31
+#1565913732
+cd p31
+#1565913732
+python p31.py 
+#1565913732
+cd ../p32
+#1565913732
+python p32.py 
+#1565913732
+cd ../p33
+#1565913732
+python p33.py 
+#1565913732
+cd ../p34
+#1565913732
+python p34.py 
+#1565913732
+cd ../p35
+#1565913732
+python p35.py 
+#1565913732
+g status
+#1565913732
+cd ../p36
+#1565913732
+python p36.py 
+#1565913732
+cd ../p37
+#1565913732
+python p37.py 
+#1565913732
+cd ../p38

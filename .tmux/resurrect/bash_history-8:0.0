@@ -1,0 +1,1000 @@
+cd src/
+vim test.py 
+cd ..
+ls
+vim .python-version 
+vim docker-compose.yml 
+cd ../mozart/
+ls
+./tagpush.py --help
+pipenv run ./tagpush.py -r -i tritonuas/loggo -i tritonuas/loggo-webserver
+pipenv run ./tagpush.py --ignore-pull -r -i tritonuas/loggo -i tritonuas/loggo-webserver
+sudo pipenv run ./tagpush.py --ignore-pull -r -i tritonuas/loggo -i tritonuas/loggo-webserver
+docker login
+sudo pipenv run ./tagpush.py --ignore-pull -r -i tritonuas/loggo -i tritonuas/loggo-webserver
+git status
+git diff
+git status
+vim .gitignore 
+git add .gitignore 
+git commit -m "ignore swp"
+git diff symphonie.py
+pipenv run ./tagpush.py -a
+pipenv run ./tagpush.py asdf -a
+pipenv run ./tagpush.py -a
+pipenv run ./tagpush.py 
+pipenv run ./tagpush.py tritonuas/loggo
+git status
+git add compositions/
+git status
+pipenv run ./symphonie.py -l
+cd compositions/templates/
+ls
+vim docker-compose.flight.yml 
+cd ../generated/
+ls
+vim docker-compose.flight.yml 
+cd ..
+ls
+cd ..
+ls
+pipenv run ./symphonie.py 
+git status
+git add symphonie.py 
+pipenv run ./symphonie.py -l
+git status
+git commit -m "compose flight template, templating names"
+git status
+git diff
+git add buildrepo.py 
+git commit -m "build git repo structure in directory immediately outside of mozart"
+git status
+git diff
+git add tagpush.py 
+git commit -m "tagpush default to specified images rather than all images"
+git status
+git push
+vim Makefile 
+ls
+cd compositions/
+ls
+cd ..
+ls
+make all-down
+sudo make all-down
+pipenv run ./symphonie.py -u 192.168.1.4:5005 -g 192.168.1.17
+pipenv run ./symphonie.py -u http://192.168.1.4:5005 -g 192.168.1.17
+ls
+cd compositions/
+ls
+cd generated/
+ls
+vim docker-compose.flight.yml 
+vim docker-compose.all.yml 
+cd ../templates/
+ls
+vim docker-compose.sim.yml 
+mv docker-compose.no-loggo.yml docker-compose.test-loggo.yml
+vim docker-compose.test-loggo.yml 
+git diff
+echo $USER
+ls /dev
+ls -l /dev/ttyUSB0/
+ls -l /dev/ttyUSB0
+ls -ld /dev/ttyUSB0
+cd /dev/ttyUSB0/
+ls
+ls -a
+cd ..
+ls
+lsusb
+ls
+ls
+mavproxy.py --master=/dev/ttyUSB0
+mavproxy.py --master=udp:/dev/ttyUSB0
+mavproxy.py --master=/dev/ttyUSB0
+cd /dev
+ls
+lsusb
+cd
+ls
+ls /dev >> dev1
+ls /dev >> dev2
+diff dev1 dev2
+lsusb
+ls /dev
+lsusb
+sudo apt udpate
+sudo apt update
+sudo apt list --upgradable
+sudo apt upgrade
+tmux
+tmux ls
+tmux attach -t 0
+tmux ls
+tmux new -s sudoku
+tmux attach -t tuas
+tmux ls
+git status
+vim colors.json
+vim docker-compose.test-loggo.yml
+vim board.py
+e.test-loggo.yml
+pipenv run ./run_mavserver.py 
+vim Dockerfile.sitl
+ls
+vim Dockerfile.sitl 
+git diff Dockerfile.sitl
+vim Dockerfile.sitl 
+vim Makefile 
+cd ..
+ls
+vim Makefile 
+sudo docker ps -a
+vim Makefile
+git log
+vim _common.scss
+grep -r 248
+vim buildrepo.py
+sudo ./tagpush.py -i -r tritonuas/loggo tritonuas/loggo-webserver
+vim communicator.js
+./run_graphserver.sh 
+ls
+cd cse/cse150/
+mkdir pa5
+cd pa5/
+ls
+git clone https://github.com/cse150b/w19pa5.git
+l
+cd w19pa5/
+ls
+vim sudoku.py 
+ls
+vim sudoku.py 
+git status
+cp ../../pa4/w19pa4/Makefile .
+ls
+vim Makefile 
+git status
+git add Makefile 
+git commit -m "makefile zip"
+git add sudoku.py 
+git commit -m "clean up sudoku.py file"
+git status
+ls
+python sudoku.py 
+l
+vim hard_sudoku_problems.txt 
+ls
+cd cnf/
+ls
+vim hard1.cnf 
+ls
+cd ..
+ls
+vim sudoku.py 
+vim Dockerfile.mavproxy
+# install dependencies with glide
+reboot
+vim Makefile
+vim blackjack.py
+vim tagpush.py
+sudo docker-compose down
+git status
+git diff
+vim Dockerfile.mavproxy 
+make
+sudo make
+make down
+sudo make down
+docker-compose up
+sudo docker-compose up
+vim Makefile 
+ls -l /dev/ttyUSB0 
+make
+sudo make
+ls /dev
+lsusb
+ls /dev
+reboot
+ls /dev
+lsusb
+cd /etc/udev/rules.d/
+ls
+vim 70-snap.
+sudo vim 10-tuas.rules
+udevadm control --reload
+sudo udevadm control --reload
+ls /dev
+lsusb
+man lsusb
+lsusb -v
+lsusb -v | grep -i serial
+lsusb
+top
+python
+cd test
+ls
+python
+cd test
+ls
+vim numpytest.py
+python numpytest.py 
+vim numpytest.py
+fg
+python numpytest.py 
+fg
+python numpytest.py 
+fg
+vim arraytest.py
+python arraytest.py 
+vim arraytest.py
+python arraytest.py 
+vim arraytest.py
+python arraytest.py 
+vim arraytest.py
+python arraytest.py 
+vim arraytest.py
+python arraytest.py 
+python
+vim arraytest.py
+python arraytest.py 
+python
+python arraytest.py 
+vim arraytest.py
+python arraytest.py 
+python
+python arraytest.py 
+vim arraytest.py 
+python arraytest.py 
+vim arraytest.py 
+python arraytest.py 
+python
+cd ece/ece111/project4/Project\ 4/
+ls
+git status
+git branch
+git push
+git push --set-upstream origin parallel
+ls
+vim bitcoin_hash.sv 
+git pull
+git status
+git stash
+git pull
+git checkout actual-parallel
+ls
+vim bitcoin_hash.sv 
+git checkout parallel
+ls
+vim bitcoin_hash.sv 
+git diff parallel..actual-parallel
+ls
+git checkout actual-parallel 
+ls
+git diff master..actual-parallel
+git diff parallel..actual-parallel
+ls
+vim bitcoin_hash.sv 
+git checkout parallel
+git checkout -- .
+git checkout parallel
+ls
+vim bitcoin_hash.sv 
+python
+cd test
+ls
+vim norvig.py
+python norvig.py 
+vim norvig.py
+python norvig.py 
+vim norvig.py
+python norvig.py 
+fg
+python norvig.py 
+fg
+python
+cd test
+ls
+vim numpytest.py 
+python numpytest.py 
+vim numpytest.py 
+python numpytest.py 
+vim numpytest.py 
+top
+python
+top
+ssh broach@192.168.1.3
+cd ..
+ls
+ssh broach@192.168.1.3
+ping 192.168.13
+ping 192.168.1.3
+ping 192.168.1.2
+ping 192.168.1.3
+cd
+cd bin/
+ls
+vim nmap-scan.sh 
+vim arp-scan.sh 
+./arp-scan.sh 
+ping 192.168.1.3
+ping 192.168.1.2
+ping 192.168.1.1
+ping 192.168.1.2
+ping 192.168.1.3
+ssh broach@192.168.1.3
+cd
+cd tir
+cd tritonuas/
+ls
+cd loggo/
+ping 192.168.1.1
+ping 192.168.1.3
+ls
+python
+ls
+cd test
+ls
+vim numpytest.py 
+vim tupletest.py
+python tupletest.py 
+vim tupletest.py 
+python tupletest.py 
+vim tupletest.py 
+python tupletest.py 
+fg
+python
+cd test
+ls
+python tupletest.py 
+vim tupletest.py 
+python tupletest.py 
+vim tupletest.py 
+python
+cd test
+ls
+vim weighted_shuffle.py
+python weighted_shuffle.py 
+vim weighted_shuffle.py 
+python weighted_shuffle.py 
+fg
+python weighted_shuffle.py 
+fg
+python weighted_shuffle.py 
+fg
+python weighted_shuffle.py 
+fg
+python weighted_shuffle.py 
+vim weighted_shuffle.py 
+ls
+diff mcts.py mcts2.py
+colordiff
+diff mcts.py mcts2.py | less -R
+vim -d mcts.py mcts2.py
+vdiff
+vim -d mcts2.py mcts2-1.py 
+cd test
+ls
+python
+top
+tmux ls
+tmux
+tmux ls
+tmux attach -t 0
+tmux attach -t sudoku
+ls
+rm dev1 dev2
+ls
+tmux ls
+tmux attach -t tuas
+tmux attach -t mcts
+tmux attach -t sudoku
+tmux attach -t tuas
+cp mcts3.py bmcts3.py
+diff mcts3.py bmcts3.py 
+rm bmcts3.py 
+diff mcts2.py mcts2_1.py
+rm mcts2_1.py
+rm mcts1_1.py
+diff mcts2.py mcts2_1.py
+diff mcts2.py mcts3.py
+diff mcts.py mcts2.py
+diff mcts2.py mcts2_1.py
+rm mcts1_1.py
+python
+diff mcts2_1.py mcts2_3.py
+diff mcts2_1.py mcts3.py
+ls
+rm ":w"
+ls
+diff mcts3.py mcts3_1.py 
+diff mcts2_1.py mcts3.py
+diff mcts.py mcts2_1.py
+diff mcts2_1.py mcts2_2.py
+python
+diff mcts1_1.py mcts1_2.py
+diff mcts2_1.py mcts2_2.py
+diff mcts2_2.py mcts2_3.py
+diff mcts2_3.py mcts2_4.py
+diff mcts2_2.py mcts2_4.py
+diff mcts2_2.py mcts2_3.py
+diff mcts2_3.py mcts2_4.py
+diff mcts2_4.py mcts2_5.py
+diff mcts2_3.py mcts2_4.py
+diff mcts2_2.py mcts2_3.py
+diff mcts.py mcts1_1.py
+git status
+git diff mcts.py
+ls
+diff mcts3.py mcts3_1.py
+ls
+git status
+vim .gitignore
+git stauts
+git status
+git add -A
+git status
+git reset HEAD results.md
+git status
+git commit -m "variations on UCT-RAVE mcts"
+git remote set-url origin git@github.com:itsmatho/gomoku.git
+git push -u origin
+tmux attach -t mcts
+python numpyindexing.py 
+python numpy_weighted_shuffle.py 
+ls
+python numpyindexing.py 
+python max0.py 
+ls
+vim numpy_weighted_shuffle.py 
+vim max0.py
+cd test
+ls
+vim weighted_shuffle.py 
+vim numpy_weighted_shuffle.py
+fg
+tmux
+ls -a
+git init
+git status
+git add .
+git status
+git commit -m "all the backup from taranis"
+git remote add origin git@github.com:tritonuas/tarantula.git
+git push -u origin master
+cd Documents/CSE\ 151/hw/hw7/
+ls
+jupyter notebook .
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Pgn53ogEm98
+python
+get-youtube-mp3.sh https://www.youtube.com/watch?v=1dZTkLNcZ2c
+get-youtube-mp3.sh https://www.youtube.com/watch?v=roR8eC-vfBc
+get-youtube-mp3.sh https://www.youtube.com/watch?v=XrvTSdsKvHI
+python
+ls
+cd Documents/
+lks
+ls
+cd CSE\ 151/hw/hw8/
+ls
+jupyter notebook .
+ssh mah069@ieng6.ucsd.edu
+get-youtube-mp3.sh https://www.youtube.com/watch?v=xmRde-gc0n8 "J. Cole"
+mus --pause
+tmux ls
+tmux attach -t mcts
+get-youtube-mp3.sh https://www.youtube.com/watch?v=6HlnjWwNqrY
+python
+top
+ls
+vim bitcoin_hash.sv 
+ls
+vim transcript.txt
+vim message.txt
+cd simulation/
+s
+ls
+cd modelsim/
+ls
+cd ../..
+ls
+cd output_files/
+ls
+git status
+cd ..
+git diff bitcoin_hash.sv
+git stash
+git checkout actual-parallel
+git pull
+tmux ls
+tmux attach -t tuas
+ls
+cd ece/
+ls
+cd ece111/project4/
+ls
+git status
+git pull
+git stash
+git pull
+ls
+cd Project\ 4/
+ls
+git checkout master
+ls
+git pull
+vim bitcoin_hash
+vim bitcoin_hash.
+vim bitcoin_hash.sv 
+git status
+git add bitcoin_hash.sv 
+git commit -m "slightly more efficient in area*delay"
+git push
+tmux 
+top
+python
+python
+python sudoku.py 
+python hexadoku.py 
+man git-commit
+cd hexadoku/
+ls
+vim hexa1.txt 
+vim hexa0.txt 
+vim hexa1.txt 
+ls
+cd ..
+ls
+vim hexadoku_problems.txt 
+vim easy_sudoku_problems.py
+vim hexadoku_problems.txt 
+git status
+git mv hexadoku_problems.txt hexadoku_problems.py
+git status
+ls
+vim hexadoku_problems.py 
+python hexadoku.py 
+python
+python hexadoku.py 
+git status
+git add hexadoku.py hexadoku_problems.py 
+git status
+git commit -m "hexadoku"
+vim Makefile 
+make
+python hexadoku.py 
+python sudoku.py 
+git status
+git add Makefile 
+git commit -m "make zip with hexadoku"
+git commit -a
+python hexadoku.py 
+git status
+git diff
+git commit --amend
+git status
+git diff
+git add hexadoku
+git commit --amend
+git status
+git log
+git reset HEAD~
+git status
+git diff
+git status'
+git status
+git commit -a
+git status
+./configure.sh 
+ls
+vim makefile
+make
+ls
+python
+python sudoku-with-sat.py 
+ls
+cd mycnf/
+lks
+ls
+ls -l
+vim hard0.cnf 
+cd ..
+git status
+ls -ldh mycnf/
+du -h mycnf/
+cd mycnf/
+ls
+rm hex_hard*
+ls
+python
+man ls
+man zip
+python
+cd ../w19pa5\ \(2\)/
+ls
+python hexadoku-with-sat.py 
+ls
+python
+ls
+get-youtube-mp3.sh https://www.youtube.com/watch?v=V2CyxncI05Y
+get-youtube-mp3.sh https://www.youtube.com/watch?v=aadQcVEKdI4 DROELOE
+get-youtube-mp3.sh https://www.youtube.com/watch?v=X94mGtAq2Gg
+get-youtube-mp3.sh https://www.youtube.com/watch?v=2LGI2k4NWnM "DROELOE x San Holo"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=EuDzvfmuPhQ
+get-youtube-mp3.sh https://www.youtube.com/watch?v=SX7EZM3363U
+get-youtube-mp3.sh https://www.youtube.com/watch?v=x8nagi2oIds
+get-youtube-mp3.sh https://www.youtube.com/watch?v=zHchkVfkjBI
+get-youtube-mp3.sh https://www.youtube.com/watch?v=tfVIotbxeWk
+get-youtube-mp3.sh https://www.youtube.com/watch?v=7lf7L-71c_4
+get-youtube-mp3.sh https://www.youtube.com/watch?v=okNO2O9RI-w "Jeff Bernat"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=_MlYUgZnZcU "Jeff Bernat"
+top
+vim sudoku.py
+vim sudoku.py 
+cp sudoku.py hexadoku.py
+vim hexadoku
+vim hexadoku.py 
+vim sudoku-with-sat.py
+cd ..
+./picosat w19pa5/cnf/hard1.cnf 
+git status
+cd w19pa5/
+ls
+cd cnf/
+ls
+vim hard1.cnf 
+cd ../..
+ls
+./picosat w19pa5/cnf/easy0.cnf 
+./picosat w19pa5/mycnf/easy0.cnf 
+./picosat w19pa5/mycnf/easy1.cnf 
+./picosat w19pa5/mycnf/hard0.cnf 
+./picosat w19pa5/mycnf/hex_hard0.cnf 
+./picosat w19pa5/mycnf/*
+cd w19pa5/cnf/
+../../picosat hard1.cnf 
+../../picosat $(ls)
+cd ..
+ls -C
+ls -1
+cd mycnf/
+../../picosat $(ls -1)
+../../picosat easy0.cnf 
+../../picosat easy10.cnf 
+../../picosat hard4.cnf 
+git status
+ls
+wc hex_hard0.cnf 
+../../picosat hex_hard
+../../picosat hex_hard0.cnf 
+vim hex_hard0.cnf 
+../../picosat hex_hard0.cnf 
+../../picosat hard0.cnf 
+vim hard0.cnf 
+../../picosat hard1.cnf 
+../../picosat hard2.cnf 
+../../picosat hard3.cnf 
+git status
+../../picosat hard1.cnf 
+../../picosat hard3.cnf 
+../../picosat hard7.cnf 
+../../picosat hard0.cnf 
+../../picosat hex_hard0.cnf 
+../../picosat -v hex_hard0.cnf 
+../../picosat -vv hex_hard0.cnf 
+../../picosat -h hex_hard0.cnf 
+../../picosat hex_hard0.cnf 
+../../picosat hex_hard0.cnf > hex01
+../../picosat hex_hard0.cnf > hex00
+diff hex00 hex01 
+../../picosat hex_hard0.cnf 
+rm hex00 hex01
+vim hard_sudoku_problems.txt 
+python sudoku.py 
+git status
+git add sudoku.py 
+git commit -m "both easy work"
+python sudoku.py 
+ls
+vim hard_sudoku_problems.txt 
+vim easy_sudoku_problems.txt 
+python sudoku.py 
+vim easy_sudoku_problems.txt 
+python sudoku.py 
+vim easy_sudoku_problems.txt 
+git status
+git mv easy_sudoku_problems.txt easy_sudoku_problems.py
+git mv hard_sudoku_problems.txt hard_sudoku_problems.py
+ls
+vim easy_sudoku_problems.py 
+vim hard_sudoku_problems.py 
+vim easy_sudoku_problems.py 
+python sudoku.py 
+cd cnf/
+ls
+vim hard1.cnf 
+cd ..
+python sudoku.py 
+ls
+vim Makefile 
+git status
+git add easy_sudoku_problems.py hard_sudoku_problems.py
+git status
+git commit -m "changed sudoku problems to python files"
+git status
+python sudoku.py 
+git add sudoku.py 
+git commit -m "all easy and hard work"
+make
+git add Makefile 
+git commit -m "make zip"
+git status
+vim .gitignore
+git status
+git add .gitignore
+git status
+git commit -m "gitignore"
+git status
+python sudoku.py 
+git status
+git add sudoku.py 
+git commit -m "using grid more"
+make
+python sudoku.py 
+git status
+git add sudoku.py 
+git diff --staged
+git commit -m "comments and small optimizations"
+python sudoku.py 
+git status
+git diff
+git status
+git add sudoku.py 
+git commit -m "set function semantics to 'consistent' and 'infer'"
+python sudoku.py 
+make
+git diff
+git status
+git diff
+git status
+git diff
+python sudoku.py 
+git diff
+git log
+git diff f49
+git diff f49306d57154b17fab05eac4dbb2c3146353d9b
+python sudoku.py 
+git diff
+git status
+git add sudoku.py 
+git commit -m "lists are much faster than dicts"
+git status
+ls
+mv picosat-965/ ..
+ls
+cd ..
+ls
+cp picosat-965/picosat .
+ls
+cd w19pa5/
+ls
+git status
+rm -rf hexadoku
+ls
+git status
+git diff
+python sudoku.py 
+python hexadoku
+python hexadoku.py 
+git diff
+git commit -a
+python sudoku-with-sat.py 
+ls
+cd cnf/
+ls
+diff easy0.cnf hard1.cnf 
+vim easy0.cnf 
+ls
+rm easy0.cnf 
+ls
+cd ..
+ls
+mkdir mycnf
+ls
+python sudoku-with-sat.py 
+cd cnf/
+ls
+vim hard1.cnf 
+cd ..
+ls
+python hexadoku-with-sat.py 
+ls
+cd mycnf/
+ls
+wc hex_hard
+wc hex_hard0.cnf 
+git status
+cd ..
+git status
+git add Makefile mycnf/ sudoku-with-sat.py 
+git status
+git commit -m "sudoku cnf converter seems to work fine"
+git status
+make
+python hexadoku-with-sat.py 
+cd mycnf/
+vim hex_hard0.cnf 
+cd ..
+python sudoku-with-sat.py 
+git status
+git diff Makefile
+git add Makefile 
+git commit -m "make zip with recursive zipping"
+git diff sudoku-with-sat.py
+git add sudoku-with-sat.py 
+git commit -m "reduce repeated clauses"
+git status
+git add hexadoku-with-sat.py 
+git commit -m "WIP: hexadoku with sat has too many clauses"
+git diff *-with-sat.py
+python sudoku-with-sat.py 
+python hexadoku-with-sat.py 
+git status
+git add sudoku-with-sat.py hexadoku-with-sat.py 
+git status
+git diff --staged
+git status
+git commit -m "indexing var names"
+python hexadoku-with-sat.py 
+git commit -m "indexing var names"
+python hexadoku-with-sat.py 
+git diff hexadoku-with-sat.py
+git add hexadoku-with-sat.py 
+git commit -m "forgot that the stupid picosat ended clauses with a 0"
+git status
+git add Makefile 
+git diff --staged
+git commit -m "make zip with hexadoku with sat"
+python sudoku-with-sat.py 
+python hexadoku-with-sat.py 
+git status
+git add -A
+git status
+git commit
+make
+python picosat_parser.py 
+python picosat_parser.py 9
+python picosat_parser.py 9 mycnf/hard0.cnf 
+python picosat_parser.py 9 cnf/hard1.cnf
+python picosat_parser.py 9 mycnf/hard0.cnf 
+git status
+python picosat_parser.py 9 mycnf/hard0.cnf 
+python picosat_parser.py 9 mycnf/hard0.cnf -v
+python picosat_parser.py 9 mycnf/hard0.cnf
+python picosat_parser.py 16 mycnf/hex_hard0.cnf 
+python picosat_parser.py 16 mycnf/hex_hard0.cnf mycnf/hex_hard1.cnf 
+git status
+python sudoku-with-sat.py 
+python hexadoku-with-sat.py 
+python picosat_parser.py 16 mycnf/hex_hard0.cnf 
+git status
+git diff hexadoku-with-sat.py
+python picosat_parser.py 16 mycnf/hex_hard0.cnf 
+python picosat_parser.py 16 mycnf/hex_hard0.cnf mycnf/hex_hard1.cnf mycnf/hex_hard2.cnf 
+ls
+git status
+git add hexadoku-with-sat.py 
+git commit -m "reduce num clauses"
+git status
+git add picosat_parser.py 
+git commit -m "run picosat and parse output into ndoku grid"
+git status
+git add mycnf/hex_hard*
+git status
+git commit -m "hex cnf output"
+git status
+make
+cd cnf/
+ls
+vim hard1.cnf 
+cd ../..
+ls
+nautilus .
+ls
+cd w19pa5/mycnf/
+ls
+vim hex_hard0.cnf 
+ls
+cd cse/cse150/pa5/
+ls
+cd w19pa5/
+ls
+python sudoku.py 
+ls
+tmux ls
+tmux attach -t sudoku
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+vim asdf 
+rm asdf
+ls
+cd snap/
+ls
+cd ..
+ls
+cd testfiles/
+ls
+vim prob_
+vim prob_test.py 
+vim prob_calc_cse151_hw3.py 
+ls -l prob_calc_cse151_hw3.py 
+vim min_token_bucket.py 
+vim scheduling.py 
+vim if_test.sh 
+vim nth_prime.py 
+vim recursive_ece101_2-31.py 
+vim fair_queue.py 
+vim estimate_exp.py 
+python estimate_exp.py 
+vim estimate_exp.py 
+vim estimate_inf_sum.py 
+python estimate_inf_sum.py 
+vim estimate_rms_util.py 
+python estimate_rms_util.py 
+vim colinearity.py 
+python colinearity.py 
+vim colinearity.py 
+ls
+cp min_token_bucket.py fermat_last_theorem_real.py
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+python fermat_last_theorem_real.py 
+vim fermat_last_theorem_real.py 
+tmux
+get-youtube-mp3.sh https://www.youtube.com/watch?v=XNPCQaIQdEA
+get-youtube-mp3.sh https://www.youtube.com/watch?v=SLjXz9ghUtk
+get-youtube-mp3.sh https://www.youtube.com/watch?v=LyC81Hhz3-4 "Tom Misch"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Iu9MVgMYrEY
+get-youtube-mp3.sh https://www.youtube.com/watch?v=oMIC0HSkcdk
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ZscBW9g21GY
+get-youtube-mp3.sh https://www.youtube.com/watch?v=_rRVQZBDaVs
+get-youtube-mp3.sh https://www.youtube.com/watch?v=bky7uovaM0w
+get-youtube-mp3.sh https://www.youtube.com/watch?v=1DMJq0VRPx8
+get-youtube-mp3.sh https://www.youtube.com/watch?v=UviEgdNu3ZM
+get-youtube-mp3.sh https://www.youtube.com/watch?v=NwJTg2gq5Xs
+get-youtube-mp3.sh https://www.youtube.com/watch?v=lfABjnjmgwM
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Meyz5JbQTzU
+get-youtube-mp3.sh https://www.youtube.com/watch?v=BNiczd_pEt8
+gnome-shell --version
+get-youtube-mp3.sh https://www.youtube.com/watch?v=4FXS6bUcSM4 "BXRBER x JNTHN STEIN"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=57WrG5YhJfE
+ls
+python gridworld.py 
+python gridworld_backup.py 
+python gridworld.py 
+python gridworld_backup.py 
+git diff methods.py

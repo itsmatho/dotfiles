@@ -1,0 +1,52 @@
+pane	euler	0	:bash	1	:*	0	:/home/mat/project-euler/p21	1	bash	:
+pane	euler	0	:bash	1	:*	1	:/home/mat/project-euler/p21	0	bash	:
+pane	go	0	:bash	1	:!*	0	:/home/mat/gnugo/interface/gtp_examples	0	bash	:
+pane	go	0	:bash	1	:!*	1	:/home/mat/gnugo/interface/gtp_examples	1	bash	:
+pane	mcts	0	:bash	0	:-	0	:/home/mat/projects/mcts	0	bash	:
+pane	mcts	0	:bash	0	:-	1	:/home/mat/projects/mcts	0	bash	:
+pane	mcts	0	:bash	0	:-	2	:/home/mat/projects/mcts	1	bash	:
+pane	mcts	1	:bash	1	:*	0	:/home/mat/projects/go	0	bash	:
+pane	mcts	1	:bash	1	:*	1	:/home/mat/projects/go	1	bash	:
+pane	search	0	:vim	1	:!*	0	:/home/mat/cse/cse150/pa1/w19pa1	0	bash	:
+pane	search	0	:vim	1	:!*	1	:/home/mat/cse/cse150/pa1/w19pa1	1	bash	:
+pane	shapes	0	:bash	1	:*	0	:/home/mat/pantry/stripes	1	bash	:
+pane	shapes	0	:bash	1	:*	1	:/home/mat/pantry/stripes	0	bash	:
+pane	shapes	0	:bash	1	:*	2	:/home/mat/pantry/stripes	0	bash	:
+pane	themes	0	:vim	1	:!*	0	:/home/mat/.themes/Ant-Dracula-modified/gnome-shell	0	bash	:
+pane	themes	0	:vim	1	:!*	1	:/home/mat/.themes/Ant-Dracula-modified/gnome-shell	0	bash	:
+pane	themes	0	:vim	1	:!*	2	:/home/mat/.themes/Ant-Dracula-modified	1	bash	:
+pane	tuas	0	:vim	0	:	0	:/home/mat/tritonuas/mozart	1	bash	:
+pane	tuas	0	:vim	0	:	1	:/home/mat/tritonuas/mozart	0	bash	:
+pane	tuas	0	:vim	0	:	2	:/home/mat/tritonuas/mozart/compositions/templates	0	bash	:
+pane	tuas	0	:vim	0	:	3	:/home/mat/tritonuas/mozart	0	bash	:
+pane	tuas	0	:vim	0	:	4	:/home/mat/tritonuas/mozart/compositions/generated	0	bash	:
+pane	tuas	1	:bash	0	:	0	:/home/mat/tritonuas/loggo/src/graph/js	0	bash	:
+pane	tuas	1	:bash	0	:	1	:/home/mat/tritonuas/loggo	1	bash	:
+pane	tuas	1	:bash	0	:	2	:/home/mat/tritonuas/loggo/src/server	0	bash	:
+pane	tuas	1	:bash	0	:	3	:/home/mat/tritonuas/loggo/src	0	bash	:
+pane	tuas	1	:bash	0	:	4	:/home/mat/tritonuas/loggo/src	0	bash	:
+pane	tuas	2	:bash	0	:	0	:/home/mat/tritonuas/ottopilot	0	bash	:
+pane	tuas	2	:bash	0	:	1	:/home/mat/tritonuas/ottopilot/mavproxy	0	bash	:
+pane	tuas	2	:bash	0	:	2	:/home/mat/tritonuas/ottopilot/mavproxy	1	bash	:
+pane	tuas	2	:bash	0	:	3	:/home/mat/tritonuas/ottopilot	0	bash	:
+pane	tuas	3	:bash	1	:*	0	:/home/mat/tritonuas/houston	0	bash	:
+pane	tuas	3	:bash	1	:*	1	:/home/mat/tritonuas/houston	1	bash	:
+pane	tuas	3	:bash	1	:*	2	:/home/mat/tritonuas/houston/src/missionedit/components	0	bash	:
+pane	tuas	3	:bash	1	:*	3	:/home/mat/tritonuas/houston/src/missionedit/actions	0	bash	:
+pane	tuas	4	:bash	0	:-	0	:/home/mat/tritonuas/hub	0	bash	:
+pane	tuas	4	:bash	0	:-	1	:/home/mat/tritonuas/hub	1	bash	:
+pane	tuas	4	:bash	0	:-	2	:/home/mat/tritonuas/hub/interop	0	bash	:
+pane	tuas	4	:bash	0	:-	3	:/home/mat/gopath/src/github.com/tritonuas/hub/missions	0	bash	:
+window	euler	0	1	:*	fb01,211x59,0,0{105x59,0,0,1,105x59,106,0,2}
+window	go	0	1	:!*	7e8c,211x59,0,0{105x59,0,0,36,105x59,106,0,37}
+window	mcts	0	0	:-	6aaa,240x66,0,0{121x66,0,0[121x33,0,0,7,121x32,0,34,35],118x66,122,0,5}
+window	mcts	1	1	:*	1d12,240x66,0,0{120x66,0,0,39,119x66,121,0,38}
+window	search	0	1	:!*	7e85,211x59,0,0{105x59,0,0,10,105x59,106,0,11}
+window	shapes	0	1	:*	c7a0,211x59,0,0{105x59,0,0,58,105x59,106,0[105x29,106,0,68,105x29,106,30,69]}
+window	themes	0	1	:!*	8816,211x59,0,0{105x59,0,0[105x29,0,0,12,105x29,0,30,13],105x59,106,0,14}
+window	tuas	0	0	:	4de2,211x59,0,0{106x59,0,0[106x28,0,0,15,106x30,0,29,16],104x59,107,0[104x21,107,0,17,104x18,107,22,18,104x18,107,41,19]}
+window	tuas	1	0	:	cedc,211x59,0,0{106x59,0,0[106x29,0,0,20,106x29,0,30,21],104x59,107,0[104x29,107,0,22,104x14,107,30,23,104x14,107,45,24]}
+window	tuas	2	0	:	0cf6,211x59,0,0{106x59,0,0[106x29,0,0,25,106x29,0,30,26],104x59,107,0[104x29,107,0,27,104x29,107,30,28]}
+window	tuas	3	1	:*	bcf7,211x59,0,0{106x59,0,0[106x29,0,0,29,106x29,0,30,62],104x59,107,0[104x29,107,0,30,104x29,107,30,45]}
+window	tuas	4	0	:-	6cf1,211x59,0,0{106x59,0,0[106x29,0,0,31,106x29,0,30,34],104x59,107,0[104x29,107,0,64,104x29,107,30,46]}
+state	mcts	

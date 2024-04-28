@@ -1,0 +1,1000 @@
+git mv interoptest.docker-compose.j2 interoptest.docker-compose.yml
+git mv sim.docker-compose.j2 sim.docker-compose.yml
+ls
+git status
+ls
+vim actual.docker-compose.yml 
+ls
+cd ..
+ls
+cd ..
+ls
+cd dockerfiles/
+ls
+vim Dockerfile.
+vim Dockerfile.interopclient 
+ls
+vim retryproxy.sh 
+cd ..
+ls
+cd compositions/
+ls
+cd templates/
+ls
+vim all.docker-compose.yml 
+cd ../..
+ls
+vim Makefile 
+cd compositions/
+ls
+cd templates/
+ls
+vim all.docker-compose.yml 
+cd ../..
+cd compositions/generated/
+ls
+docker-compose -f all.docker-compose.yml up -d
+sudo docker-compose -f all.docker-compose.yml up -d
+cd ../..
+ls
+make all
+sudo make all
+ls
+pipenv run python symphonie.py -l
+sudo make all
+sudo make all-restart
+sudo docker ps -a
+ls
+cd compositions/
+ls
+cd templates/
+ls
+vim all.docker-compose.yml 
+ls
+git mv actual.docker-compose.yml docker-compose.actual.yml
+vim docker-compose.actual.yml 
+ls
+git mv interoptest.docker-compose.yml docker-compose.interoptest.yml
+ls
+git mv sim.docker-compose.yml docker-compose.sim.yml
+ls
+mv all.docker-compose.yml docker-compose.all.yml
+ls
+git add docker-compose.all.yml 
+git status
+git commit -m "docker compose files, naming convention"
+git status
+git diff
+. ~/.bashrc
+ls
+git status
+cd ../..
+ls
+cd compositions/
+l
+cd templates/
+ls
+cd ..
+ls
+cd ..
+ls
+vim buildrepo.sh 
+rm buildrepo.sh 
+vim buildrepo.py
+ls
+vim buildrepo.py 
+vim test.py
+chmod +x test.py 
+./test.py 
+vim test.py 
+./test.py 
+rm test.py 
+ls
+git status
+vim buildrepo.py 
+vim config.json 
+git status
+git add -A
+git status
+git diff
+git diff --staged
+ls
+./buildrepo.py --help
+./tagpush.py --help
+ls
+cp -r . ~/test/
+cp -r . ~/test/mozart
+ls
+mkdir tritonuas
+git status
+cd tritonuas/
+ls
+git clone git@github.com:tritonuas/py-planner.git
+ls
+cd ..
+git status
+cd tritonuas/
+ls
+cd py-planner/
+git status
+cd ..
+ls
+cd ..
+vim .gitignore
+git status
+cd tritonuas/
+git status
+ls
+cd ..
+ls
+git status
+rm .gitignore 
+ls
+git status
+rm -rf tritonuas/
+ls
+git diff
+git add buildrepo.py 
+git status
+git commit -m "build into org name"
+git status
+cp -r . ~/test/mozart
+git status
+vim .gitignore
+git status
+git log
+git diff
+ls
+vim config.json 
+vim Makefile 
+ls
+ls
+cd ..
+ls
+cd compositions/
+ls
+cd templates/
+ls
+cd ..
+ls
+cd generated/
+ls
+ls -a
+cd ..
+ls
+cd ..
+ls
+git status
+ls
+vim tagpush.sh 
+cd compositions/generated/
+ls
+vim actual.docker-compose 
+cd ../..
+ls
+pipenv install docker
+ls
+vim Makefile 
+git status
+make registry
+sudo make registry
+docker ps
+sudo docker ps
+pipenv run python tagpush
+pipenv run python tagpush.py 
+sudo pipenv run python tagpush.py 
+man docker
+echo $DOCKER_HOST
+pipenv run python tagpush.py 
+sudo pipenv run python tagpush.py 
+ps
+sudo pipenv run python tagpush.py 
+ls
+chmod +x tagpush.py
+ls
+sudo pipenv run ./tagpush.py 
+vim tagpush.py 
+sudo pipenv run ./tagpush.py 
+vim config.json 
+sudo pipenv run ./tagpush.py 
+vim config.json 
+sudo pipenv run ./tagpush.py 
+ls
+cd compositions/
+ls
+cd templates/
+ls
+vim actual.docker-compose.j2 
+git status
+ls
+vim all.docker-compose.j2 
+cd ../..
+ls
+vim Makefile 
+cd ..
+ls
+cd hub/
+ls
+vim glide.
+vim glide.yaml 
+ls
+cd third_party/
+ls
+cd ..
+git status
+cd third_party/
+ls
+cd swagger-ui/
+ls
+cd ../..
+ls
+vim .gitignore 
+grep go-mavlink *
+vim mavlink.go 
+ls
+cd interopconn/
+ls
+cd ../interop
+ls
+cd ..
+ls
+vim glide.
+vim glide.lock 
+vim glide.yaml 
+cd mission_edit/
+ls
+cd ..
+vim BUILD.bazel 
+grep mission_edit *
+grep -r auvsi_suas *
+s
+ls
+vim Makefile 
+vim Dockerfile 
+vim grpc_utils.go 
+ls
+cd ..
+ls
+cd mozart/
+ls
+cd dockerfiles/
+ls
+vim Dockerfile.mavproxy 
+cd ..
+ls
+vim Makefile 
+vim tagpush.py 
+touch buildrepo.sh
+chmod +x buildrepo.sh 
+echo '#!/bin/bash' >> buildrepo.sh 
+cat buildrepo.sh 
+ls
+vim config.json 
+man docker
+docker --help build
+docker build --help
+cd ..
+cd hub/
+ls
+vim Dockerfile 
+cd ../mozart/
+ls
+cd dockerfiles/
+ls
+vim Dockerfile.mavproxy 
+vim Dockerfile.interopclient 
+cd ..
+ls
+cd ../mapproxy/
+ls
+vim Dockerfile.mapproxy 
+ls
+git mv Dockerfile.mapproxy Dockerfile
+ls
+git status
+git commit -m "rename Dockerfile"
+git push
+ls
+vim start.sh 
+ls
+vim Dockerfile 
+cd ..
+ls
+cd houston/
+ls
+git log
+ls
+rm -r *
+ls
+rsync ~/tritonuas/god/houston/ .
+rsync -r ~/tritonuas/god/houston/ .
+ls
+cd node_modules/
+ls
+cd ..
+ls
+git status
+vim .travis.yml 
+git branch
+git checkout master
+git stash
+git checkout master
+git stash pop
+git stash
+git status
+git reset HEAD~
+git status
+git stash
+git status
+git pull
+rm -r *
+git reset HEAD~
+git status
+git checkout -- .
+git status
+ls
+rm .gitmodules 
+ls
+git status
+git pull
+git status
+ls
+rm -r *
+rsync -r /home/mat/tritonuas/god/houston/ .
+ls
+git status
+ls
+git branch
+git checkout -b mat-cleanup
+git status
+vim .gitignore 
+rm yarn-error.log 
+ls
+git status
+rm Makefile 
+git status
+git add -A
+git status
+ls
+git commit -m "migrated from god/houston"
+git status
+ls
+git push
+git push --set-upstream origin mat-cleanup
+ls
+cp ~/tritonuas/god/houston/Makefile .
+ls
+git status
+vim Makefile 
+git add Makefile 
+git commit -m "makefile for houston":
+git reset HEAD~1
+git stauts
+git status
+vim Makefile 
+git add Makefile 
+git status
+git commit -m "makefile"
+vim Makefile 
+ls
+vim BUILD 
+vim Dockerfile 
+git push
+ls
+cd ../hub/
+ls
+vim Dockerfile 
+vim Makefile 
+vim grpc_utils.go 
+cd ../mozart/
+ls
+git tatus
+git status
+git diff symphonie.py
+ls
+pipenv run python symphonie.py 
+vim Makefile 
+sudo make all
+sudo docker ps -a
+vim Makefile 
+sudo make all-down
+sudo make all
+sudo docker ps
+sudo docker ps -a
+sudo make all-down
+pipenv run ./symphonie.py 
+pipenv run ./symphonie.py -l
+sudo make all
+sudo docker ps -a
+sudo make all-down
+sudo make all
+sudo docker ps -a
+sudo make all-down
+sudo make all
+sudo make all-down
+vim Makefile 
+sudo make all
+vim Makefile 
+sudo make all
+ls
+vim buildrepo.sh 
+vim tagpush.py 
+vim Makefile 
+make clean
+git status
+vim Makefile 
+make generate-local
+make down
+make all-down
+sudo make all-down
+sudo docker ps -a
+. ~/.bashrc
+ls
+vim symphonie.py 
+ls
+cd compositions/
+ls
+cd templates/
+ls
+vim docker-compose.all.yml 
+cd ../..
+ls
+vim pullall.py
+ls
+git status
+git diff
+ls
+cd tools/
+ls
+cd ..
+ls
+chmod +x pullall.py 
+git status
+ls
+vim tagpush.py 
+git diff Makefile
+sudo docker ps -a
+ls
+vim config.json 
+ls
+git status
+git diff
+git status
+rm pullall.py 
+git status
+vim config.json 
+ls
+cd compositions/
+ls
+vim templates/
+cd templates/
+ls
+vim docker-compose.actual.yml 
+vim docker-compose.all.yml 
+cd ..
+ls
+cd ..
+ls
+ls tools/
+cd tools/
+ls
+vim docker-compose.sim_tuning 
+ls
+vim copy.sh 
+vim pull.sh 
+cd ..
+ls
+vim tagpush.py 
+git status
+vim Makefile 
+git status
+git diff config.json
+git diff symphonie.py
+git diff Makefile
+vim Makefile 
+git diff symphonie.py
+vim Makefile 
+git status
+git diff
+git status
+git add Makefile config.json symphonie.py tagpush.py 
+git commit -m "more makefile, more config messages, symphonie generation, tagpush options"
+git status
+git log
+ls
+cd templates/
+ls
+vim mavproxy.template 
+cd ..
+ls
+git status
+git rm -r templates/
+git status
+ls
+git commit -m  "unneeded templates dir"
+git status
+ls
+cd dockerfiles/
+ls
+cd ..
+ls
+make generated-local
+vim Makefile 
+make generate-local
+ls
+cd compositions/
+ls
+cd generated/
+ls
+vim docker-compose.
+vim docker-compose.actual.yml 
+vim docker-compose.all.yml 
+ls
+cd ..
+ls
+cd templates/
+ls
+vim docker-compose.all.yml 
+git status
+git diff docker-compose.all.yml
+git commit -m "map nginx server to local port 8001"
+git log
+git add docker-compose.all.yml 
+git status
+git commit -m "map nginx server to local port 8001"
+git status
+git push
+ls
+cd ../..
+ls
+chmod +x buildrepo.py 
+ls
+vim tagpush.py 
+ls
+vim config.json 
+git status
+git diff config.json
+git status
+git add -A
+git status
+git commit -m "building the repositories"
+git push
+ls
+vim buildrepo.py 
+git status
+git diff
+git status
+vim buildrepo.py 
+git status
+git diff
+git add buildrepo.py 
+git commit -m "error handling, password handling, repo clone directory location"
+git status
+git push
+ls
+git status
+ls
+vim config.json 
+git satus
+git status
+git add config.json 
+git diff --staged
+git commit -m "goddamit otto get a better repository name"
+git status
+git push
+ls
+vim README.md
+git status
+git add README.md 
+git status
+git commit -m "usage for building the repos"
+git push
+ls -a
+vim README.md 
+git status
+vim README.md 
+git status
+git add README.md 
+git commit -m "readme improvement"
+git status
+git push
+vim README.md 
+git status
+git add README.md 
+git commit -m "more README improvments"
+git status
+git push
+ls
+vim buildrepo.py 
+git status
+git add buildrepo.py 
+git commit -m "patting myself on the back via python comments"
+git push
+ls
+vim README.md 
+git status
+git add README.md 
+git commit -m "i heard u liked READMEs, so i put a README in ur README to update the README"
+git push
+vim buildrepo.py 
+git status
+git add buildrepo.py 
+git diff --staged
+git commit -m "i forgot usernames were a thing for github credentials since i use ssh all the time lol"
+git status
+git push
+vim buildrepo.py 
+git add buildrepo.py 
+git status
+vim buildrepo.py 
+git commit -m "apparently you need bytes to send to stdin"
+git push
+vim buildrepo.py 
+git status
+git add buildrepo.py 
+git commit -m 'utf-8'
+git push
+vim buildrepo.py 
+git status
+git add buildrepo.py 
+git commit -m "ok nvm, people who want to use https instead of ssh are gonna have to suffer through typing in their github credentials every time"
+git status
+git push
+ls
+vim buildrepo.py 
+ls
+cd dockerfiles/
+ls
+cd ..
+ls
+cd tools/
+ls
+cd ..
+ls
+cd compositions/
+ls
+cd ..
+ls
+vim Makefile 
+cd tools/
+ls
+vim docker-compose.dev 
+vim docker-compose.all 
+ls
+cd ..
+ls
+vim symphonie.py 
+vim Makefile 
+make all
+sudo make all
+ls
+cd  compositions/
+ls
+cd templates/
+ls
+vim docker-compose.all.yml 
+ls
+pyenv versions
+cd ../planeobc/
+ls
+cd setup/
+ls
+vim libgphoto2.sh 
+cd ..
+grep setup *
+ls
+vim Makefile 
+cd ../god/
+cd interop_server/
+grep MISSION_NAME *
+vim set_mission.py 
+cd .
+grep -r auvsi_suas *
+cd ..
+grep -r auvsi_suas *
+ls
+grep -r --exclude-dir{bazel*} auvsi_suas *
+grep -r --exclude-dir={bazel*} auvsi_suas *
+grep -r --exclude-dir={bazel-bin,bazel-genfiles,bazel-god,bazel-out,bazel-testlogs} auvsi_suas *
+cd ..
+ls
+cd MAVProxy/
+ls
+git status
+git pull
+ls
+cd ..
+ls
+cd loggo/
+ls
+cd src/
+ls
+vim mavplane.py
+grep -r 5761 *
+ls
+grep 5761 *
+cd tools/
+ls
+cd ..
+ls
+grep 14551 *
+cd ..
+ls
+vim Dockerfile 
+docker -t tritonuas/loggo build .
+docker build -t tritonuas/loggo .
+sudo docker build -t tritonuas/loggo .
+ls
+cd src/
+ls
+vim run_graphserver.sh 
+cd ..
+vim Dockerfile 
+ls
+sudo docker build -t tritonuas/loggo .
+ls
+vim Dockerfile 
+ls
+cd src/
+ls
+vim run_graphserver.sh 
+cd ..
+ls
+cd docker/
+ls
+vim Dockerfile.mavexplorer 
+cd ..
+ls
+vim Dockerfile 
+vim docker-compose.yml
+ls
+vim Makefile 
+. ~/.bashrc
+fg
+vim Makefile 
+ls
+vim docker-compose.yml 
+vim Makefile 
+vim Dockerfile.webserver 
+vim docker
+vim docker-
+vim docker-compose.yml 
+vim Dockerfile.webserver 
+vim docker-compose.yml 
+vim Makefile 
+ls
+vim Makefile 
+vim docker-compose.yml 
+vim Makefile 
+make build
+sudo make build
+vim Makefile 
+sudo make build
+vim Makefile 
+sudo make build
+ls
+make run
+sudo make run
+sudo docker ps
+sudo docker ps -a
+make down
+sudo make down
+cd ../hub/
+grep -r 5761 *
+vim main.go 
+ls
+ls
+vim Dockerfile 
+vim Makefile 
+vim compile-protos.sh 
+vim datatypes.py
+. ~/.bashrc
+fg
+ls
+clear
+ls
+. ~/.bashrc
+ls
+. ~/.bashrc
+tmux ls
+tmux attach 0
+tmux attach -t 0
+tmux ls
+tmux attach -t 6
+tmux ls
+tmux attach -t tuas
+ps aux | grep jupyter
+killall -3 gnome-shell
+sudo killall -3 gnome-shell
+sudo apt update
+apt list --upgradable
+nautilus-actions-config-tool 
+ps aux | grep jupyter
+ps aux | grep skype
+ps aux | grep slack
+ls /dev/
+ps aux | grep jupyter
+kill 29179
+ps aux | grep jupyter
+ps aux | grep python
+python
+apt list --upgradable
+sudo apt upgrade
+ls
+man env
+cd test
+ls
+vim test.py 
+rm test.py 
+vim test.py
+chmod +x test.py 
+./test.py 
+vim test.py
+./test.py 
+vim test.py
+./test.py 
+vim test.py
+./test.py 
+vim test.py
+./test.py 
+vim test.py
+./test.py 
+pipenv install click
+./test.py 
+ls
+ls -a
+vim test.py
+ps aux | grep jupyter
+nautilus .
+ps aux | grep jupyter
+kill 698 11397
+ps aux | grep jupyter
+kill 11492
+ps aux | grep jupyter
+get-youtube-mp3.sh https://soundcloud.com/bad-snacks/oh-shoot
+get-youtube-mp3.sh https://www.youtube.com/watch?v=QgzTaKA7MnM "BJ The Chicago Kid"
+ls
+cd flat-remix-gtk/
+ls
+git pull
+cd ..
+ls
+cd .themes/
+ls
+cd Flat-Remix-GTK
+ls
+vim index.theme 
+cd ../..
+ls
+cd .local/share/gnome-shell/extensions/
+ls
+ls ~/bin
+vim ~/bin/install-gnome-extension.sh 
+cd
+ls
+git clone https://github.com/micheleg/dash-to-dock.git
+cd dash-to-dock/
+ls
+make
+make install
+git branch
+python
+ls
+get-youtube-mp3.sh https://www.youtube.com/watch?v=0gzmFo8UiJQ
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Qn1qdC7hXRg "J. Cole"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=gNldIm5E36k
+youtube-dl -F https://www.youtube.com/watch?v=UlA5dpeZiQE
+youtube-dl -F https://www.youtube.com/watch?v=W3YWiOUB6oE
+get-youtube-mp3.sh https://www.youtube.com/watch?v=UlA5dpeZiQE "Hall & Oates"
+get-youtube-mp3.sh https://soundcloud.com/vcxk8945/not-my-fault "IOAH"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Onz4_nUItDQ
+get-youtube-mp3.sh https://www.youtube.com/watch?v=RglfcNhf3Xo
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ZmWssnGSon8
+get-youtube-mp3.sh https://www.youtube.com/watch?v=GAYh498niv8
+python
+grep -r Interval *
+grep -r setInterval *
+ls
+grep setInterval *
+grep Interval *
+cd
+vim .vimrc
+ls
+cd src/
+ls
+vim run_graphserver.sh 
+./run_graphserver.sh 
+git status
+git diff mavwebsocket.py
+git status
+git diff
+git stash
+git status
+ls
+cd ../..
+ls
+make build
+sudo make build
+sudo make run
+sudo make restart
+sudo make down
+sudo make run
+sudo make down
+sudo docker ps
+ls
+cd src/
+ls
+pipenv run ./run_mavserver.py 
+grep -r closed *
+grep -r pull_data_proc *
+pipenv run ./run_mavserver.py 
+grep sending *
+grep -r sending *
+python
+cd
+ping 192.168.1.3
+ssh broach@192.168.1.3
+cd ..
+pipenv run ./run_mavserver.py 
+pipenv
+cd ..
+pipenv install flask
+cd src/
+pipenv run ./run_mavserver.py 
+pipenv install
+ls
+pipenv install flask-cors
+pipenv run ./run_mavserver.py 
+ps
+grep vehicle_sockets *
+grep vehicle_sockets server/*
+grep Plane( *
+grep Plane\( *
+grep Plane\( server/*
+pipenv run ./run_mavserver.py 
+cd ..
+ls
+make build
+sudo make build
+ls
+vim Makefile 
+pipenv
+pipenv graph
+ls
+make build
+sudo make build
+sudo docker-compose -f docker-compose.yml up -d
+sudo docker ps -a
+sudo docker-compose -f docker-compose.yml down
+ls
+vim docker-compose.yml 
+cd src/
+pipenv run ./run_mavserver.py 
+grep "print('')
+grep "print('')" *
+grep "print()" *
+grep "print('')" server/*
+grep "print()" server/*
+grep "print('\n')" server/*
+pipenv run ./run_mavserver.py 
+cd ..
+ls
+make build-webserver
+sudo make build-webserver
+ls
+cd src/
+ls
+vim mavlogdump.py
+du -h logs/
+ls
+pipenv run ./run_mavserver.py 
+ls
+cd ..
+ls
+sudo make down
+sudo docker ps
+pipenv run ./run_mavserver.py 
+cd src/
+pipenv run ./run_mavserver.py 
+ps
+pipenv run ./run_mavserver.py 

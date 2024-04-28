@@ -1,0 +1,1000 @@
+git status
+git diff
+git add triton/cannon.py 
+git commit -m "lorem5 is working omg"
+git push
+make sync
+git status
+git add triton/cannon.py 
+git commit -m "now works for hella long ones like hdh.ucsd.edu, but takes a long time to load"
+git push
+make sync
+git diff
+make sync
+git status
+git diff
+git status
+git add triton/cannon.py 
+git commit -m "added accept-encoding identity to header without regression"
+git push
+git status
+ls
+cd triton/
+ls
+vim PID 
+vim writeup.txt 
+git statu
+git status
+git add writeup.txt 
+git commit -m "writeup"
+git push
+make sync
+cd ..
+make sync
+ls
+vim Makefile 
+make sync
+vim Makefile 
+make sync
+vim Makefile 
+make sync
+cd ../..
+ls
+hw5
+ls
+cd hw5fa18vm.ova/
+ls
+vboxheadless hw5fa18vm.ova 
+vboxheadless -s hw5fa18vm
+tmux attach -t cse127
+pavucontrol 
+ps aux | grep bash
+ps
+cd te
+cd testfiles/
+ls
+vim fair_queue.py 
+vim min_token_bucket.py 
+python min_token_bucket.py 
+vim min_token_bucket.py 
+fg
+python min_token_bucket.py 
+ps
+fg
+grep_slides.sh functional
+grep_slides.sh red
+grep_slides.sh proactive
+grep_slides.sh flow
+grep_slides.sh "what is a flow"
+grep_slides.sh wfq
+grep_slides.sh manchester
+grep_slides.sh partitioning
+grep_slides.sh aloha
+grep_slides.sh jamming
+grep_slides.sh CSMA/CD
+grep_slides.sh maca
+grep_slides.sh "link layer"
+grep_slides.sh "negative ack"
+get-youtube-mp3.sh https://www.youtube.com/watch?v=_C_4H--xjSI&feature=share
+ps
+get-youtube-mp3.sh https://www.youtube.com/watch?v=_C_4H--xjSI
+get-youtube-mp3.sh https://www.youtube.com/watch?v=8t2eAJ5Ieno
+get-youtube-mp3.sh https://www.youtube.com/watch?v=MCGMm5BD-vk
+get-youtube-mp3.sh https://www.youtube.com/watch?v=RE87rQkXdNw
+sudo systemctl restart network-manager.service 
+ifconfig
+ping 8.8.8.8
+ls
+ping 8.8.8.8
+cd cse/
+ls
+cd cse158/
+ls
+cd ../..
+cd cogs/
+ls
+mkdir cogs118a
+cd cogs118a/
+git clone git@github.com:itsmatho/cogs118a-final.git
+cd cogs118a-final/
+ls
+git clone git@github.com:itsmatho/cse158-assignment2.git
+ls
+ls cse158-assignment2/
+mv cse158-assignment2/setup.sh .
+mv cse158-assignment2/svm.ipynb 
+mv cse158-assignment2/svm.ipynb .
+mv cse158-assignment2/knn.ipynb .
+rm -rf cse158-assignment2/
+ls
+vim setup.sh 
+vim knn.ipynb 
+jupyter notebook .
+source /home/mat/.local/share/virtualenvs/cogs118a-final-OSoEZfCV/bin/activate
+vim .tmux.conf 
+tmux source-file ~/.tmux.conf 
+tmux
+vim .tmux.conf 
+source /home/mat/.local/share/virtualenvs/cogs118a-final-OSoEZfCV/bin/activate
+jupyter which
+which jupyter
+pyenv which jupyter
+python
+pyenv which pip
+sudo -H pip install mnist
+sudo -H pip uninstall mnist
+sudo -H pip uninstall python-mnist
+sudo -H pip install python-mnist
+python
+python3
+source /home/mat/.local/share/virtualenvs/cogs118a-final-OSoEZfCV/bin/activate
+jupyter notebook .
+top
+python
+grep_slides.sh tree
+ls
+python
+get-youtube-mp3.sh https://soundcloud.com/louisfutonbeats/travis-scott-wake-up-louis-futon-medasin-flip
+get-youtube-mp3.sh https://www.youtube.com/watch?v=HaNcBT7eIdM
+get-youtube-mp3.sh https://www.youtube.com/watch?v=75uOETx2uYA
+cd ~/.jupyter/
+ls
+vim migrated 
+jupyter --paths
+cd /run/user/1000/jupyter/
+ls
+vim kernel-63d38294-a9c8-4339-9f9a-5308a404a110.json 
+vim nbserver-28910.json 
+which jupyter
+cd
+pyenv
+pyenv install --list
+cd Documents/COGS\ 118A/
+ls
+cd hw/
+grep -r decision
+grep -r tree
+cd ../../../cogs/cogs118a/cogs118a-final/
+ls
+rm Pipfile Pipfile.lock .python-version 
+ls- a
+la
+git add -A
+git status
+git rm --cached .ipynb_checkpoints/
+git rm --cached -r .ipynb_checkpoints/
+git stauts
+git status
+git commit -m "mnist classification with svm, decision tree, multilayer perceptron"
+git status
+git reset HEAD~
+git reset ~HEAD
+git status
+git log
+git reset HEAD~
+git push
+pipenv shell
+pyenv virtualenv 3.6.7 jupyter
+pyenv global
+pyenv global 3.6.7
+pyenv global system
+ls
+./setup.sh 
+ls
+cd
+cd Documents/COGS\ 118A/hw/
+ls
+jupyter notebook .
+ls
+pipenv shell
+jupyter notebook .
+pyenv local
+pyenv 
+pyenv versions
+pyenv local 3.6.7
+pipenv
+pipenv install
+pipenv install mnist
+pipenv install numpy scipy
+ls
+pipenv shell
+tmux
+python
+ifconfig
+iwconfig
+vim .vimrc 
+python3
+python2
+python3
+ls
+cd .vim/bundle/
+ls
+rm -r syntastic/
+rm -rf syntastic/
+ls
+git clone https://github.com/w0rp/ale.git
+ls
+cd
+vim .vimrc
+git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+vim .vimrc
+git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
+vim .vimrc
+cd .vim/bundle/
+ls
+rm -rf ale/ vim-airline/
+ls
+git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
+ls
+cd
+ls
+vim .vimrc
+vim .tmux.conf 
+tmux show -g default-command
+tmux --version
+man tmux
+tmux -V
+tmux ls
+tmux attach -t tuas
+tmux ls
+tmux
+tmux ls
+vim .tmux.conf 
+vim .vimrc
+vim .tmux.conf 
+cd .tmux/plugins/tpm/
+ls
+vim ~/.tmux.conf 
+tmux source ~/.tmux.conf 
+get-youtube-mp3.sh https://www.youtube.com/watch?v=6JxNV9RyjTg
+get-youtube-mp3.sh https://www.youtube.com/watch?v=QbPrR_3kB4U
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ya0LhdgXiaQ
+youtube-dl -F https://www.youtube.com/watch?v=8eydIBipTO8
+get-youtube-mp3.sh https://www.youtube.com/watch?v=K5SbKV-Uz7A
+youtube-dl -F https://www.youtube.com/watch?v=x7l4V-nLljU
+youtube-dl -F https://www.youtube.com/watch?v=ivdJyUYM0J4
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ivdJyUYM0J4
+get-youtube-mp3.sh https://www.youtube.com/watch?v=U8O5Cgw9_Ic
+top
+get-youtube-mp3.sh https://www.youtube.com/watch?v=cbVQjv4tZCo
+ifconfig
+iwconfig
+ping 8.8.8.8
+get-youtube-mp3.sh https://www.youtube.com/watch?v=cbVQjv4tZCo
+pip help
+pip
+sudo -H pip install --upgrade pip
+sudo -H python -m pip install --upgrade pip
+sudo apt remove python-pip
+pip
+get-youtube-mp3.sh https://www.youtube.com/watch?v=cbVQjv4tZCo
+youtube-dl 
+pip install --upgrade youtube-dl
+youtube-dl -F https://www.youtube.com/watch?v=LuuB02qQtro
+youtube-dl -Fv https://www.youtube.com/watch?v=LuuB02qQtro
+sudo -H pip install --upgrade youtube-dl
+youtube-dl --socket-timeout 5 -Fv https://www.youtube.com/watch?v=LuuB02qQtro
+ping 8.8.8.8
+get-youtube-mp3.sh https://www.youtube.com/watch?v=cbVQjv4tZCo
+pip --version
+sudo -H pip install --upgrade cryptography
+vim .tmux.conf 
+tmux source ~/.tmux.conf 
+cd ../../..
+pyenv local
+ls
+pyenv -h
+ls
+pipenv run python src/test.py 
+vim .travis.yml 
+git status
+git diff
+git log
+vim .travis.yml 
+git log
+git status
+cd src/graph/js/
+grep graph_series_data *
+grep stop_update *
+vim graph.js 
+git diff
+grep time_value *
+grep time_values *
+grep first_timestamp
+grep first_timestamp *
+git status
+git diff
+git status
+git commit -a
+git status
+git push
+cd ../..
+ls
+cd ..
+vim .travis.yml 
+git add .travis.yml 
+git commit -am "Travis config pls"
+git push
+ls
+cd src/
+ls
+cd server/
+ls
+vim mavwebsocket.py
+cd ..
+ls
+cd ..
+ls
+cd src/
+ls
+cd ..
+ls
+grep ZMQ_PUB *
+cd ..
+ls /dev
+mavproxy.py --master=/dev/ttyUSB0 --out=udp:127.0.0.1:14550 --out=tcp:127.0.0.1:14551 --out=udp:192.168.1.17:14552
+sudo mavproxy.py --master=/dev/ttyUSB0 --out=udp:127.0.0.1:14550 --out=tcp:127.0.0.1:14551 --out=udp:192.168.1.17:14552
+su
+su mavproxy.py --master=/dev/ttyUSB0 --out=udp:127.0.0.1:14550 --out=tcp:127.0.0.1:14551 --out=udp:192.168.1.17:14552
+su
+ls
+git status
+git diff
+vim Dockerfile 
+ls
+vim Pipfile
+cd docker/
+ls
+vim Dockerfile.mavexplorer 
+cd ..
+ls
+vim requirements.txt 
+vim README.md 
+vim Dockerfile 
+git status
+git diff
+git branch
+git checkout -b mat-legend
+git status
+git commit -a
+git status
+git push
+git push --set-upstream origin mat-legend
+git status
+git diff
+git status
+git commit -a
+git push
+git status
+git branch
+git checkout master
+ls
+cd src/
+ls
+cd ..
+l
+ls
+vim Makefile 
+cd ..
+ls
+cd god/
+ls
+vim tagpush.sh 
+cd docker/
+ls
+cd ..
+ls
+cd tools/
+ls
+vim pull.sh 
+vim render.py 
+cd ..
+ls
+cd ..
+ls
+cd god/
+ls
+vim Makefile 
+cd hub/
+ls
+vim BUILD.bazel 
+cd ..
+ls
+cd setup/
+ls
+vim all.sh 
+cd ..
+ls
+vim BUILD 
+vim gtest.BUILD 
+cd Make
+vim Makefile 
+vim tagpush.sh 
+ls
+cd houston/
+ls
+vim BUILD 
+vim .travis.yml 
+ls
+la
+vim .editorconfig 
+vim .babelrc 
+vim Dockerfile 
+grep dist *
+vim tsconfig.json 
+ls
+vim tsconfig.json 
+ls
+vim webpack.config.js 
+ls
+vim node_modules/
+vim BUILD 
+cd ..
+ls
+git status
+git diff
+git status
+fg
+git checkout -- *
+git status
+cd tools/
+vim docker-compose.layered 
+rm docker-compose.layered 
+ls
+cd ..
+ls
+git status
+vim run_mavserver.py 
+cd graph/js/
+vim communicator.js 
+cd ..
+./run_mavserver.py 
+pipenv run python run_mavserver.py 
+./run_mavserver.py 
+pipenv run python run_mavserver.py 
+git branch
+git status
+git pull --ff-only
+pipenv run python run_mavserver.py 
+ls
+vim mavplane.py
+pipenv run python run_mavserver.py 
+ps
+ps aux | grep python
+pipenv run python run_mavserver.py 
+cd graph/
+ls
+python
+python -m SimpleHTTPServer 8001
+ls
+cd js/
+ls
+vim graph.js 
+cd ..
+ls
+cd ..
+vim run_mavserver.py 
+python -m SimpleHTTPServer 8001
+ls
+cd graph/
+python -m SimpleHTTPServer 8001
+vim README.md 
+ls
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal
+sudo docker rm planerascal
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal
+sudo docker ps
+sudo docker ps -a
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal
+sudo docker ps
+sudo docker ps -a
+sudo docker rm planerascal
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal
+sudo docker imagesw
+sudo docker images
+sudo docker ps
+sudo docker ps -a
+sudo docker rm db0
+sudo docker ps -a
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal:latest
+sudo docker ps
+sudo docker rm planerascal
+sudo docker ps -a
+sudo docker pull tritonuas/plane.rascal:8bd2a0f8a604de141cfe30c48c25a1585dfe278d
+sudo docker images
+sudo docker tag tritonuas/plane.rascal:8bd2a0f8a604de141cfe30c48c25a1585dfe278d tritonuas/plane.rascal:prev
+sudo docker images
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal:prev
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal
+sudo docker kill planerascal
+sudo docker rm planerascal
+sudo docker ps -a
+sudo docker pull tritonuas/plane.rascal
+sudo docker run --name planerascal -p 5760:5760 tritonuas/plane.rascal
+ps
+docker ps
+sudo docker ps
+sudo docker ps -a
+ls
+cd edric/
+grep Google *
+vim gui.py 
+cd ../..
+ls
+git status
+git diff
+ls
+cd src/
+pipenv run python main.py 
+ls
+cd edric/
+ls
+grep mission_waypoint *
+cd ..
+ls
+cd data/
+ls
+vim default_format.json 
+vim compmission.json 
+cd ..
+cd edric/
+ls
+grep search_grid
+grep search_grid *
+grep Waypoints *
+vim datatypes.py 
+grep Path *
+ls
+cd ..
+ls
+cd data/
+ls
+vim compmission.json 
+ls
+cd ..
+ls
+cd edric/
+grep Zone *
+vim viz.py 
+grep Zone *
+cd eval/
+ls
+grep Zone *
+vim evaluation.py 
+cd ..
+ls
+vim loader.py 
+vim datatypes.py 
+grep order *
+vim gui.py 
+vim sitl.py 
+vim raster.py 
+vim geo.py 
+vim controller.py 
+fg
+grep 3D *
+vim gui.py 
+fg
+grep Point *
+grep Path *
+grep Waypoints *
+grep Zone *
+vim datatypes.py 
+grep Zone *
+vim datatypes.py 
+git checkout -- datatypes.py
+ls
+grep Waypoints *
+grep load_shape *
+grep load_point *
+grep load_one_point *
+grep plot_line_string *
+grep object_generator *
+grep "Load Mission
+grep "Load Mission" *
+grep load_mission *
+grep change_mission
+grep change_mission *
+grep plot_point_collection
+grep plot_point_collection *
+grep pg *
+grep selected_alg *
+grep matplotlib *
+grep Transformation *
+grep altitude_msl *
+grep object_generator *
+grep latitude *
+grep datatypes *
+grep coord_key *
+grep YO *
+grep format_file *
+grep MissionFormat *
+grep to_cartesian *
+grep load_shape *
+ls
+rm :w
+ls
+grep load_shape *
+ls
+vim datatypes.py 
+cd ..
+ls
+git clone git@github.com:tritonuas/path-viz-tools.git
+ls
+cd path-viz-tools/
+ls
+pipenv install
+pipenv shell
+pyenv install 3.6.6
+sudo apt install libssl-dev libbz2-dev 
+pyenv install 3.6.6
+pyenv local 3.6.6
+pipenv install
+pipenv shell
+pyenv -h
+pipenv -h
+pipenv update
+ls
+cd src/
+ls
+git pull
+git status
+cd ..
+ls
+git stash
+git pull
+git stash pop
+ls
+cd src/
+ls
+pipenv run python main.py 
+cd ..
+ls
+vim .python-version 
+git stash
+vim .python-version 
+ls
+cd src/
+ls
+pipenv run python main.py 
+cd ..
+ls
+pipenv 
+pipenv install
+ls
+cd src/
+pipenv run python main.py 
+vim main.py 
+cd ..
+ls
+pyenv local
+python
+pyenv install 3.6.0
+python
+ls
+cd src/
+pipenv run python main.py 
+cd ..
+ls
+pipenv run python
+pipenv
+pyenv local 3.6.6
+python
+pipenv --python 3.6
+ls
+pipenv install
+pipenv update
+pipenv run python
+ls
+cd src/
+pipenv run python main.py 
+cd ..
+ls
+pipenv run pip install functional
+cd src/
+pipenv run python main.py 
+ls
+cd edric/
+ls
+cd ..
+cd data/
+ls
+cd ..
+vim main.py 
+ls
+pipenv run python main.py 
+ls
+cd edric/
+ls
+vim sitl.py 
+vim loader.py 
+vim controller.py 
+cd ..
+pipenv run python main.py 
+pipenv install functional
+ls
+cd ..
+ls
+vim Pipfile
+git status
+git commit -am "working pipenv"
+git push
+git checkout -b mat-fixed-pipenv
+git push
+git push --set-upstream origin mat-fixed-pipenv
+cd ..
+ls
+cd syncmaster/
+ls
+cd ..
+ls
+cd loggo/
+ls
+cd src/
+ls
+vim mavplane.py
+cd ../../path-viz-tools/
+ls
+cd src/
+ls
+git branch
+git checkout mainline
+git status
+git log
+git pull --ff-only
+git log
+git status
+ls
+vim main.py 
+python
+cd ..
+ls
+vim .python-version 
+pyenv local
+cd src/
+pyenv local
+ls
+cd ..
+python
+python src/main.py 
+pipenv run python src/main.py 
+ls
+cd src/
+ls
+cd data/
+ls
+cd ..
+ls
+rm .python-version 
+pyenv local
+pipenv run python main.py 
+pyenv local
+pipenv run python main.py 
+git diff
+pipenv run python main.py 
+ls
+cd edric/
+ls
+pipenv run python main.py 
+cd ..
+pipenv run python main.py 
+git branch
+git checkout -b mat-ordered-waypoints
+git status
+git diff
+pipenv run python main.py 
+git status
+git commit -am "added plotting for ordered waypoints, rm extraneous .python-version"
+git status
+git push
+git push --set-upstream origin mat-ordered-waypoints
+pipenv run python main.py 
+git status
+git diff
+pipenv run python main.py 
+git status
+git diff
+git status
+git commit -am "little bit of cleanup"
+git push
+ls
+cd edric/
+ls
+cd ..
+git status
+git checkout master
+git pull
+git checkout mainline
+git pull
+vim ~/.gitconfig 
+cd edric/
+grep datatypes.py *
+grep datatypes *
+ls
+git diff
+git status
+git checkout datatypes.py
+git status
+git diff
+git branch
+ls
+cd ..
+ls
+ls -a
+cd ..
+ls -a
+vim .python-version 
+cd src/
+git status
+git branch
+git checkout -b mat-inheritance
+git status
+git add -A
+git status
+git diff
+git add -A
+git commit -m "modular inheritance"
+git status
+which tmux
+ls -l $(which tmux)
+man ln
+sudo ln -s /usr/local/bin/tmux /usr/bin/tmux
+ls -l $(which tmux)
+ls
+cd ..
+ls
+cd ..
+ls
+pipenv shell
+ls
+pipenv run python src/main.py 
+cd src/
+ls
+pipenv run python main.py 
+cd ..
+ls
+git clone git@github.com:tritonuas/stillsuit.git
+cd stillsuit/
+ls
+la
+cd stillsuit/
+ls
+la
+cd ..
+ls
+vim pyproject.toml 
+vim runshell.py 
+cd stillsuit/
+ls
+vim tools.py 
+cd ..
+ls
+cd ..
+ls
+cd gos
+cd god
+ls
+cd heim
+ls
+cd ..
+ls
+cd mapproxy/
+ls
+la
+cd ..
+ls
+la
+vim .travis.yml 
+ls
+cd hub/
+ls
+git status
+cd ..
+vim Makefile 
+vim tagpush.sh 
+ls
+cd planeobc/
+ls
+cd setup/
+ls
+vim add-services.sh 
+ls /lib/systemd/system/
+ls
+vim add-services.sh 
+vim mavlinkproxy.service 
+cd .
+ls
+cd ..
+ls
+cd mavlinkwrap/
+ls
+cd mavlink/
+ls
+cd ../..
+ls
+cd client/
+ls
+cd ..
+ls
+cd util/
+ls
+cd ..
+cd server/
+ls
+cd ..
+ls
+cd gphotowrap/
+ls
+cd ..
+ls
+cd ..
+ls
+cd miss
+cd missions/
+ls
+cd ..
+ls
+cd houston/
+ls
+cd src/
+ls
+cd planeobc/
+ls
+cd ../..
+ls
+cd ..
+l
+less ~/.bashrc
+cd setup/
+ls
+vim all.sh 
+cd ..
+ls
+cd go-mavlink/
+ls
+cd mavlink/
+ls
+cd definitions/
+ls
+vim common.xml 
+cd ../..
+ls
+cd examples/
+ls
+cd udprx/
+ls
+cd ../..
+ls
+vim BUILD 
+vim Dockerfile 
+vim Makefile 
+cd ..
+ls
+cd docker/
+ls
+vim Dockerfile.mavproxy 
+ls
+vim retryproxy.sh 
+cd ..
+ls
+vim WORKSPACE 
+cd interop_server/
+ls
+la
+vim admin_user_setup.yaml 
+vim BUILD 
+vim start.sh 
+cd ..
+ls
+cd docker/
+ls
+vim Dockerfile.interopclient 
+ls
+cd ...
+cd ..
+l
+cd tools/
+ls
+vim docker-compose.all 
+cd ..
+ls

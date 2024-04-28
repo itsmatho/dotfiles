@@ -1,0 +1,2000 @@
+#1565913732
+ls
+#1565913732
+vim retryproxy.sh 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim all.docker-compose.yml 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim all.docker-compose.yml 
+#1565913732
+cd ../..
+#1565913732
+cd compositions/generated/
+#1565913732
+ls
+#1565913732
+docker-compose -f all.docker-compose.yml up -d
+#1565913732
+sudo docker-compose -f all.docker-compose.yml up -d
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+make all
+#1565913732
+sudo make all
+#1565913732
+ls
+#1565913732
+pipenv run python symphonie.py -l
+#1565913732
+sudo make all
+#1565913732
+sudo make all-restart
+#1565913732
+sudo docker ps -a
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim all.docker-compose.yml 
+#1565913732
+ls
+#1565913732
+git mv actual.docker-compose.yml docker-compose.actual.yml
+#1565913732
+vim docker-compose.actual.yml 
+#1565913732
+ls
+#1565913732
+git mv interoptest.docker-compose.yml docker-compose.interoptest.yml
+#1565913732
+ls
+#1565913732
+git mv sim.docker-compose.yml docker-compose.sim.yml
+#1565913732
+ls
+#1565913732
+mv all.docker-compose.yml docker-compose.all.yml
+#1565913732
+ls
+#1565913732
+git add docker-compose.all.yml 
+#1565913732
+git status
+#1565913732
+git commit -m "docker compose files, naming convention"
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+. ~/.bashrc
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+l
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim buildrepo.sh 
+#1565913732
+rm buildrepo.sh 
+#1565913732
+vim buildrepo.py
+#1565913732
+ls
+#1565913732
+vim buildrepo.py 
+#1565913732
+vim test.py
+#1565913732
+chmod +x test.py 
+#1565913732
+./test.py 
+#1565913732
+vim test.py 
+#1565913732
+./test.py 
+#1565913732
+rm test.py 
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+vim buildrepo.py 
+#1565913732
+vim config.json 
+#1565913732
+git status
+#1565913732
+git add -A
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git diff --staged
+#1565913732
+ls
+#1565913732
+./buildrepo.py --help
+#1565913732
+./tagpush.py --help
+#1565913732
+ls
+#1565913732
+cp -r . ~/test/
+#1565913732
+cp -r . ~/test/mozart
+#1565913732
+ls
+#1565913732
+mkdir tritonuas
+#1565913732
+git status
+#1565913732
+cd tritonuas/
+#1565913732
+ls
+#1565913732
+git clone git@github.com:tritonuas/py-planner.git
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+git status
+#1565913732
+cd tritonuas/
+#1565913732
+ls
+#1565913732
+cd py-planner/
+#1565913732
+git status
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+vim .gitignore
+#1565913732
+git status
+#1565913732
+cd tritonuas/
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+rm .gitignore 
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+rm -rf tritonuas/
+#1565913732
+ls
+#1565913732
+git diff
+#1565913732
+git add buildrepo.py 
+#1565913732
+git status
+#1565913732
+git commit -m "build into org name"
+#1565913732
+git status
+#1565913732
+cp -r . ~/test/mozart
+#1565913732
+git status
+#1565913732
+vim .gitignore
+#1565913732
+git status
+#1565913732
+git log
+#1565913732
+git diff
+#1565913732
+ls
+#1565913732
+vim config.json 
+#1565913732
+vim Makefile 
+#1565913732
+ls
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd generated/
+#1565913732
+ls
+#1565913732
+ls -a
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+vim tagpush.sh 
+#1565913732
+cd compositions/generated/
+#1565913732
+ls
+#1565913732
+vim actual.docker-compose 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+pipenv install docker
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+git status
+#1565913732
+make registry
+#1565913732
+sudo make registry
+#1565913732
+docker ps
+#1565913732
+sudo docker ps
+#1565913732
+pipenv run python tagpush
+#1565913732
+pipenv run python tagpush.py 
+#1565913732
+sudo pipenv run python tagpush.py 
+#1565913732
+man docker
+#1565913732
+echo $DOCKER_HOST
+#1565913732
+pipenv run python tagpush.py 
+#1565913732
+sudo pipenv run python tagpush.py 
+#1565913732
+ps
+#1565913732
+sudo pipenv run python tagpush.py 
+#1565913732
+ls
+#1565913732
+chmod +x tagpush.py
+#1565913732
+ls
+#1565913732
+sudo pipenv run ./tagpush.py 
+#1565913732
+vim tagpush.py 
+#1565913732
+sudo pipenv run ./tagpush.py 
+#1565913732
+vim config.json 
+#1565913732
+sudo pipenv run ./tagpush.py 
+#1565913732
+vim config.json 
+#1565913732
+sudo pipenv run ./tagpush.py 
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim actual.docker-compose.j2 
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+vim all.docker-compose.j2 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd hub/
+#1565913732
+ls
+#1565913732
+vim glide.
+#1565913732
+vim glide.yaml 
+#1565913732
+ls
+#1565913732
+cd third_party/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+git status
+#1565913732
+cd third_party/
+#1565913732
+ls
+#1565913732
+cd swagger-ui/
+#1565913732
+ls
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+vim .gitignore 
+#1565913732
+grep go-mavlink *
+#1565913732
+vim mavlink.go 
+#1565913732
+ls
+#1565913732
+cd interopconn/
+#1565913732
+ls
+#1565913732
+cd ../interop
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim glide.
+#1565913732
+vim glide.lock 
+#1565913732
+vim glide.yaml 
+#1565913732
+cd mission_edit/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+vim BUILD.bazel 
+#1565913732
+grep mission_edit *
+#1565913732
+grep -r auvsi_suas *
+#1565913732
+s
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+vim Dockerfile 
+#1565913732
+vim grpc_utils.go 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd mozart/
+#1565913732
+ls
+#1565913732
+cd dockerfiles/
+#1565913732
+ls
+#1565913732
+vim Dockerfile.mavproxy 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+vim tagpush.py 
+#1565913732
+touch buildrepo.sh
+#1565913732
+chmod +x buildrepo.sh 
+#1565913732
+echo '#!/bin/bash' >> buildrepo.sh 
+#1565913732
+cat buildrepo.sh 
+#1565913732
+ls
+#1565913732
+vim config.json 
+#1565913732
+man docker
+#1565913732
+docker --help build
+#1565913732
+docker build --help
+#1565913732
+cd ..
+#1565913732
+cd hub/
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+cd ../mozart/
+#1565913732
+ls
+#1565913732
+cd dockerfiles/
+#1565913732
+ls
+#1565913732
+vim Dockerfile.mavproxy 
+#1565913732
+vim Dockerfile.interopclient 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd ../mapproxy/
+#1565913732
+ls
+#1565913732
+vim Dockerfile.mapproxy 
+#1565913732
+ls
+#1565913732
+git mv Dockerfile.mapproxy Dockerfile
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git commit -m "rename Dockerfile"
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+vim start.sh 
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd houston/
+#1565913732
+ls
+#1565913732
+git log
+#1565913732
+ls
+#1565913732
+rm -r *
+#1565913732
+ls
+#1565913732
+rsync ~/tritonuas/god/houston/ .
+#1565913732
+rsync -r ~/tritonuas/god/houston/ .
+#1565913732
+ls
+#1565913732
+cd node_modules/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+vim .travis.yml 
+#1565913732
+git branch
+#1565913732
+git checkout master
+#1565913732
+git stash
+#1565913732
+git checkout master
+#1565913732
+git stash pop
+#1565913732
+git stash
+#1565913732
+git status
+#1565913732
+git reset HEAD~
+#1565913732
+git status
+#1565913732
+git stash
+#1565913732
+git status
+#1565913732
+git pull
+#1565913732
+rm -r *
+#1565913732
+git reset HEAD~
+#1565913732
+git status
+#1565913732
+git checkout -- .
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+rm .gitmodules 
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git pull
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+rm -r *
+#1565913732
+rsync -r /home/mat/tritonuas/god/houston/ .
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+git branch
+#1565913732
+git checkout -b mat-cleanup
+#1565913732
+git status
+#1565913732
+vim .gitignore 
+#1565913732
+rm yarn-error.log 
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+rm Makefile 
+#1565913732
+git status
+#1565913732
+git add -A
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+git commit -m "migrated from god/houston"
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+git push
+#1565913732
+git push --set-upstream origin mat-cleanup
+#1565913732
+ls
+#1565913732
+cp ~/tritonuas/god/houston/Makefile .
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+vim Makefile 
+#1565913732
+git add Makefile 
+#1565913732
+git commit -m "makefile for houston":
+#1565913732
+git reset HEAD~1
+#1565913732
+git stauts
+#1565913732
+git status
+#1565913732
+vim Makefile 
+#1565913732
+git add Makefile 
+#1565913732
+git status
+#1565913732
+git commit -m "makefile"
+#1565913732
+vim Makefile 
+#1565913732
+ls
+#1565913732
+vim BUILD 
+#1565913732
+vim Dockerfile 
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+cd ../hub/
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+vim Makefile 
+#1565913732
+vim grpc_utils.go 
+#1565913732
+cd ../mozart/
+#1565913732
+ls
+#1565913732
+git tatus
+#1565913732
+git status
+#1565913732
+git diff symphonie.py
+#1565913732
+ls
+#1565913732
+pipenv run python symphonie.py 
+#1565913732
+vim Makefile 
+#1565913732
+sudo make all
+#1565913732
+sudo docker ps -a
+#1565913732
+vim Makefile 
+#1565913732
+sudo make all-down
+#1565913732
+sudo make all
+#1565913732
+sudo docker ps
+#1565913732
+sudo docker ps -a
+#1565913732
+sudo make all-down
+#1565913732
+pipenv run ./symphonie.py 
+#1565913732
+pipenv run ./symphonie.py -l
+#1565913732
+sudo make all
+#1565913732
+sudo docker ps -a
+#1565913732
+sudo make all-down
+#1565913732
+sudo make all
+#1565913732
+sudo docker ps -a
+#1565913732
+sudo make all-down
+#1565913732
+sudo make all
+#1565913732
+sudo make all-down
+#1565913732
+vim Makefile 
+#1565913732
+sudo make all
+#1565913732
+vim Makefile 
+#1565913732
+sudo make all
+#1565913732
+ls
+#1565913732
+vim buildrepo.sh 
+#1565913732
+vim tagpush.py 
+#1565913732
+vim Makefile 
+#1565913732
+make clean
+#1565913732
+git status
+#1565913732
+vim Makefile 
+#1565913732
+make generate-local
+#1565913732
+make down
+#1565913732
+make all-down
+#1565913732
+sudo make all-down
+#1565913732
+sudo docker ps -a
+#1565913732
+. ~/.bashrc
+#1565913732
+ls
+#1565913732
+vim symphonie.py 
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim docker-compose.all.yml 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+vim pullall.py
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+ls
+#1565913732
+cd tools/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+chmod +x pullall.py 
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+vim tagpush.py 
+#1565913732
+git diff Makefile
+#1565913732
+sudo docker ps -a
+#1565913732
+ls
+#1565913732
+vim config.json 
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+rm pullall.py 
+#1565913732
+git status
+#1565913732
+vim config.json 
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+vim templates/
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim docker-compose.actual.yml 
+#1565913732
+vim docker-compose.all.yml 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+ls tools/
+#1565913732
+cd tools/
+#1565913732
+ls
+#1565913732
+vim docker-compose.sim_tuning 
+#1565913732
+ls
+#1565913732
+vim copy.sh 
+#1565913732
+vim pull.sh 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim tagpush.py 
+#1565913732
+git status
+#1565913732
+vim Makefile 
+#1565913732
+git status
+#1565913732
+git diff config.json
+#1565913732
+git diff symphonie.py
+#1565913732
+git diff Makefile
+#1565913732
+vim Makefile 
+#1565913732
+git diff symphonie.py
+#1565913732
+vim Makefile 
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+git add Makefile config.json symphonie.py tagpush.py 
+#1565913732
+git commit -m "more makefile, more config messages, symphonie generation, tagpush options"
+#1565913732
+git status
+#1565913732
+git log
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim mavproxy.template 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git rm -r templates/
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+git commit -m  "unneeded templates dir"
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+cd dockerfiles/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+make generated-local
+#1565913732
+vim Makefile 
+#1565913732
+make generate-local
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd generated/
+#1565913732
+ls
+#1565913732
+vim docker-compose.
+#1565913732
+vim docker-compose.actual.yml 
+#1565913732
+vim docker-compose.all.yml 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim docker-compose.all.yml 
+#1565913732
+git status
+#1565913732
+git diff docker-compose.all.yml
+#1565913732
+git commit -m "map nginx server to local port 8001"
+#1565913732
+git log
+#1565913732
+git add docker-compose.all.yml 
+#1565913732
+git status
+#1565913732
+git commit -m "map nginx server to local port 8001"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+chmod +x buildrepo.py 
+#1565913732
+ls
+#1565913732
+vim tagpush.py 
+#1565913732
+ls
+#1565913732
+vim config.json 
+#1565913732
+git status
+#1565913732
+git diff config.json
+#1565913732
+git status
+#1565913732
+git add -A
+#1565913732
+git status
+#1565913732
+git commit -m "building the repositories"
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+vim buildrepo.py 
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git status
+#1565913732
+vim buildrepo.py 
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git add buildrepo.py 
+#1565913732
+git commit -m "error handling, password handling, repo clone directory location"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+vim config.json 
+#1565913732
+git satus
+#1565913732
+git status
+#1565913732
+git add config.json 
+#1565913732
+git diff --staged
+#1565913732
+git commit -m "goddamit otto get a better repository name"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+vim README.md
+#1565913732
+git status
+#1565913732
+git add README.md 
+#1565913732
+git status
+#1565913732
+git commit -m "usage for building the repos"
+#1565913732
+git push
+#1565913732
+ls -a
+#1565913732
+vim README.md 
+#1565913732
+git status
+#1565913732
+vim README.md 
+#1565913732
+git status
+#1565913732
+git add README.md 
+#1565913732
+git commit -m "readme improvement"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+vim README.md 
+#1565913732
+git status
+#1565913732
+git add README.md 
+#1565913732
+git commit -m "more README improvments"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+vim buildrepo.py 
+#1565913732
+git status
+#1565913732
+git add buildrepo.py 
+#1565913732
+git commit -m "patting myself on the back via python comments"
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+vim README.md 
+#1565913732
+git status
+#1565913732
+git add README.md 
+#1565913732
+git commit -m "i heard u liked READMEs, so i put a README in ur README to update the README"
+#1565913732
+git push
+#1565913732
+vim buildrepo.py 
+#1565913732
+git status
+#1565913732
+git add buildrepo.py 
+#1565913732
+git diff --staged
+#1565913732
+git commit -m "i forgot usernames were a thing for github credentials since i use ssh all the time lol"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+vim buildrepo.py 
+#1565913732
+git add buildrepo.py 
+#1565913732
+git status
+#1565913732
+vim buildrepo.py 
+#1565913732
+git commit -m "apparently you need bytes to send to stdin"
+#1565913732
+git push
+#1565913732
+vim buildrepo.py 
+#1565913732
+git status
+#1565913732
+git add buildrepo.py 
+#1565913732
+git commit -m 'utf-8'
+#1565913732
+git push
+#1565913732
+vim buildrepo.py 
+#1565913732
+git status
+#1565913732
+git add buildrepo.py 
+#1565913732
+git commit -m "ok nvm, people who want to use https instead of ssh are gonna have to suffer through typing in their github credentials every time"
+#1565913732
+git status
+#1565913732
+git push
+#1565913732
+ls
+#1565913732
+vim buildrepo.py 
+#1565913732
+ls
+#1565913732
+cd dockerfiles/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd tools/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd compositions/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+cd tools/
+#1565913732
+ls
+#1565913732
+vim docker-compose.dev 
+#1565913732
+vim docker-compose.all 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim symphonie.py 
+#1565913732
+vim Makefile 
+#1565913732
+make all
+#1565913732
+sudo make all
+#1565913732
+ls
+#1565913732
+cd  compositions/
+#1565913732
+ls
+#1565913732
+cd templates/
+#1565913732
+ls
+#1565913732
+vim docker-compose.all.yml 
+#1565913732
+ls
+#1565913732
+pyenv versions
+#1565913732
+cd ../planeobc/
+#1565913732
+ls
+#1565913732
+cd setup/
+#1565913732
+ls
+#1565913732
+vim libgphoto2.sh 
+#1565913732
+cd ..
+#1565913732
+grep setup *
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+cd ../god/
+#1565913732
+cd interop_server/
+#1565913732
+grep MISSION_NAME *
+#1565913732
+vim set_mission.py 
+#1565913732
+cd .
+#1565913732
+grep -r auvsi_suas *
+#1565913732
+cd ..
+#1565913732
+grep -r auvsi_suas *
+#1565913732
+ls
+#1565913732
+grep -r --exclude-dir{bazel*} auvsi_suas *
+#1565913732
+grep -r --exclude-dir={bazel*} auvsi_suas *
+#1565913732
+grep -r --exclude-dir={bazel-bin,bazel-genfiles,bazel-god,bazel-out,bazel-testlogs} auvsi_suas *
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd MAVProxy/
+#1565913732
+ls
+#1565913732
+git status
+#1565913732
+git pull
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd loggo/
+#1565913732
+ls
+#1565913732
+cd src/
+#1565913732
+ls
+#1565913732
+vim mavplane.py
+#1565913732
+grep -r 5761 *
+#1565913732
+ls
+#1565913732
+grep 5761 *
+#1565913732
+cd tools/
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+grep 14551 *
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+docker -t tritonuas/loggo build .
+#1565913732
+docker build -t tritonuas/loggo .
+#1565913732
+sudo docker build -t tritonuas/loggo .
+#1565913732
+ls
+#1565913732
+cd src/
+#1565913732
+ls
+#1565913732
+vim run_graphserver.sh 
+#1565913732
+cd ..
+#1565913732
+vim Dockerfile 
+#1565913732
+ls
+#1565913732
+sudo docker build -t tritonuas/loggo .
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+ls
+#1565913732
+cd src/
+#1565913732
+ls
+#1565913732
+vim run_graphserver.sh 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd docker/
+#1565913732
+ls
+#1565913732
+vim Dockerfile.mavexplorer 
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+vim docker-compose.yml
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+. ~/.bashrc
+#1565913732
+fg
+#1565913732
+vim Makefile 
+#1565913732
+ls
+#1565913732
+vim docker-compose.yml 
+#1565913732
+vim Makefile 
+#1565913732
+vim Dockerfile.webserver 
+#1565913732
+vim docker
+#1565913732
+vim docker-
+#1565913732
+vim docker-compose.yml 
+#1565913732
+vim Dockerfile.webserver 
+#1565913732
+vim docker-compose.yml 
+#1565913732
+vim Makefile 
+#1565913732
+ls
+#1565913732
+vim Makefile 
+#1565913732
+vim docker-compose.yml 
+#1565913732
+vim Makefile 
+#1565913732
+make build
+#1565913732
+sudo make build
+#1565913732
+vim Makefile 
+#1565913732
+sudo make build
+#1565913732
+vim Makefile 
+#1565913732
+sudo make build
+#1565913732
+ls
+#1565913732
+make run
+#1565913732
+sudo make run
+#1565913732
+sudo docker ps
+#1565913732
+sudo docker ps -a
+#1565913732
+make down
+#1565913732
+sudo make down
+#1565913732
+cd ../hub/
+#1565913732
+grep -r 5761 *
+#1565913732
+vim main.go 
+#1565913732
+ls
+#1565913732
+ls
+#1565913732
+vim Dockerfile 
+#1565913732
+vim Makefile 
+#1565913732
+vim compile-protos.sh 
+#1565913732
+vim datatypes.py
+#1565913732
+. ~/.bashrc
+#1565913732
+fg
+#1565913732
+ls
+#1565913732
+clear
+#1565913732
+ls
+#1565913732
+. ~/.bashrc
+#1565913732
+ls
+#1565913732
+. ~/.bashrc
+#1565913732
+tmux ls
+#1565913732
+tmux attach 0
+#1565913732
+tmux attach -t 0
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t 6
+#1565913732
+tmux ls
+#1565913732
+tmux attach -t tuas
+#1565913732
+ps aux | grep jupyter
+#1565913732
+killall -3 gnome-shell
+#1565913732
+sudo killall -3 gnome-shell
+#1565913732
+sudo apt update
+#1565913732
+apt list --upgradable
+#1565913732
+nautilus-actions-config-tool 
+#1565913732
+ps aux | grep jupyter
+#1565913732
+ps aux | grep skype
+#1565913732
+ps aux | grep slack
+#1565913732
+ls /dev/
+#1565913732
+ps aux | grep jupyter
+#1565913732
+kill 29179
+#1565913732
+ps aux | grep jupyter
+#1565913732
+ps aux | grep python
+#1565913732
+python
+#1565913732
+apt list --upgradable
+#1565913732
+sudo apt upgrade
+#1565913732
+ls
+#1565913732
+man env
+#1565913732
+cd test
+#1565913732
+ls
+#1565913732
+vim test.py 
+#1565913732
+rm test.py 
+#1565913732
+vim test.py
+#1565913732
+chmod +x test.py 
+#1565913732
+./test.py 
+#1565913732
+vim test.py
+#1565913732
+./test.py 
+#1565913732
+vim test.py
+#1565913732
+./test.py 
+#1565913732
+vim test.py
+#1565913732
+./test.py 
+#1565913732
+vim test.py
+#1565913732
+./test.py 
+#1565913732
+vim test.py
+#1565913732
+./test.py 
+#1565913732
+pipenv install click
+#1565913732
+./test.py 
+#1565913732
+ls
+#1565913732
+ls -a
+#1565913732
+vim test.py
+#1565913732
+ps aux | grep jupyter
+#1565913732
+nautilus .
+#1565913732
+ps aux | grep jupyter
+#1565913732
+kill 698 11397
+#1565913732
+ps aux | grep jupyter
+#1565913732
+kill 11492
+#1565913732
+ps aux | grep jupyter
+#1565913732
+get-youtube-mp3.sh https://soundcloud.com/bad-snacks/oh-shoot
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=QgzTaKA7MnM "BJ The Chicago Kid"
+#1565913732
+ls
+#1565913732
+cd flat-remix-gtk/
+#1565913732
+ls
+#1565913732
+git pull
+#1565913732
+cd ..
+#1565913732
+ls
+#1565913732
+cd .themes/
+#1565913732
+ls
+#1565913732
+cd Flat-Remix-GTK
+#1565913732
+ls
+#1565913732
+vim index.theme 
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+cd .local/share/gnome-shell/extensions/
+#1565913732
+ls
+#1565913732
+ls ~/bin
+#1565913732
+vim ~/bin/install-gnome-extension.sh 
+#1565913732
+cd
+#1565913732
+ls
+#1565913732
+git clone https://github.com/micheleg/dash-to-dock.git
+#1565913732
+cd dash-to-dock/
+#1565913732
+ls
+#1565913732
+make
+#1565913732
+make install
+#1565913732
+git branch
+#1565913732
+python
+#1565913732
+ls
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=0gzmFo8UiJQ
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Qn1qdC7hXRg "J. Cole"
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=gNldIm5E36k
+#1565913732
+youtube-dl -F https://www.youtube.com/watch?v=UlA5dpeZiQE
+#1565913732
+youtube-dl -F https://www.youtube.com/watch?v=W3YWiOUB6oE
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=UlA5dpeZiQE "Hall & Oates"
+#1565913732
+get-youtube-mp3.sh https://soundcloud.com/vcxk8945/not-my-fault "IOAH"
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=Onz4_nUItDQ
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=RglfcNhf3Xo
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=ZmWssnGSon8
+#1565913732
+get-youtube-mp3.sh https://www.youtube.com/watch?v=GAYh498niv8
+#1565913732
+python
+#1565913732
+grep -r Interval *
+#1565913732
+grep -r setInterval *
+#1565913732
+ls
+#1565913732
+grep setInterval *
+#1565913732
+grep Interval *
+#1565913732
+cd
+#1565913732
+vim .vimrc
+#1565913732
+ls
+#1565913732
+cd src/
+#1565913732
+ls
+#1565913732
+vim run_graphserver.sh 
+#1565913732
+./run_graphserver.sh 
+#1565913732
+git status
+#1565913732
+git diff mavwebsocket.py
+#1565913732
+git status
+#1565913732
+git diff
+#1565913732
+git stash
+#1565913732
+git status
+#1565913732
+ls
+#1565913732
+cd ../..
+#1565913732
+ls
+#1565913732
+make build
+#1565913732
+sudo make build
+#1565913732
+sudo make run
+#1565913732
+sudo make restart
+#1565913732
+sudo make down
+#1565913732
+sudo make run
+#1565913732
+sudo make down
+#1565913732
+sudo docker ps
+#1565913732
+ls
+#1565913732
+cd src/
+#1565913732
+ls
+#1565913732
+pipenv run ./run_mavserver.py 
+#1565913732
+grep -r closed *
+#1565913732
+grep -r pull_data_proc *
+#1565913732
+pipenv run ./run_mavserver.py 
+#1565913732
+grep sending *
+#1565913732
+grep -r sending *
+#1565913732
+python
+#1565913732
+ls
+#1565913732
+python gomoku.py 
+#1565913732
+ls
+#1565913732
+pipenv
+#1565913732
+pipenv --python 3.6
+#1565913732
+pipenv install numpy
+#1565913732
+pipenv install pygame
+#1565913732
+pipenv run python gomoku.py 
+#1565913732
+python3 gomoku.py 
+#1565913732
+python gomoku.py 
+#1565913732
+git status
+#1565913732
+vim .gitignore
+#1565913732
+python gomoku.py 
+#1565913732
+ls
+#1565913732
+python gomoku.py 
+#1565913732
+ls
+#1565913732
+python gomoku.py 
+#1565913732
+ps
+#1565913732
+python gomoku.py 
+#1565913732
+python
+#1565913732
+python --version
+#1565913732
+ls
+#1565913732
+python3 gomoku.py 
+#1565913732
+pipenv 
+#1565913732
+pyenv
+#1565913732
+pyenv versions
+#1565913732
+pyenv local 3.6.7
+#1565913732
+pipenv install pygame
+#1565913732
+pipenv install numpy
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+python gomoku.py 
+#1565913732
+python
+#1565913732
+ls
+#1565913732
+vim Pipfile
+#1565913732
+pipenv run python gomoku.py 
+#1565913732
+pipenv
+#1565913732
+pipenv uninstall
+#1565913732
+pipenv --rm
+#1565913732
+ls
+#1565913732
+pyenv local 2.7.15
+#1565913732
+pipenv --python 2.7
+#1565913732
+ls
+#1565913732
+pipenv --rm
+#1565913732
+rm Pipfile Pipfile.lock 
+#1565913732
+ls
+#1565913732
+ls -a
+#1565913732
+pipenv install pygame numpy
+#1565913732
+ls
+#1565913732
+python
+#1565913732
+ls
+#1565913732
+vim Pipfile 
+#1565913732
+rm Pipfile 
+#1565913732
+ls
+#1565913732
+rm .python-version 
+#1565913732
+ls
+#1565913732
+ls -a
+#1565913732
+python
+#1565913732
+pipenv --python 2.7.15
+#1565913732
+ls
+#1565913732
+vim Pipfile 
+#1565913732
+rm Pipfile 
+#1565913732
+ls
+#1565913732
+ls -a
+#1565913732
+python gomoku.py 
+#1565913732
+pip show numpy | grep Version
+#1565913732
+sudo -H pip install numpy
+#1565913732
+sudo -H pip2 install numpy
+#1565913732
+sudo -H pip2 install --upgrade pip
+#1565913732
+sudo -H pip3 install --upgrade pip
+#1565913732
+sudo -H pip2 install numpy
+#1565913732
+sudo -H pip3 install numpy
+#1565913732
+python3 gomoku.py 
+#1565913732
+python gomoku.py 
+#1565913732
+rm mcts2-1.py 
+#1565913732
+python gomoku.py 
+#1565913732
+ls
+#1565913732
+cd ..
+#1565913732
+cp -r w19pa3 ~/projects/
+#1565913732
+cd
+#1565913732
+cd projects/mcts/
+#1565913732
+ls

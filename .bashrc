@@ -59,15 +59,15 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-_gb() {
+___gb() {
 		echo -n '(' && git branch 2>/dev/null | grep '^*' | colrm 1 2 | tr -d '\n' && echo -n ')'
 }
-_git_branch() {
-		_gb | sed 's/()//'
+___git_branch() {
+		___gb | sed 's/()//'
 }
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[96m\]$(__git_ps1)\[\033[00m\]\n\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[96m\] $(___git_branch)\[\033[00m\]\n\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\n\$ '
 fi
@@ -119,7 +119,10 @@ fi
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
 if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
+  if [ -f /usr/share/bash-completion/completions/git ]; then
+    # git autocomplete
+    . /usr/share/bash-completion/completions/git
+  elif [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
@@ -140,6 +143,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH=$(pyenv root)/shims:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/jdk/bin:$PATH
 
 # pyenv autocompletions (and other pyenv init stuff)
 if command -v pyenv 1>/dev/null 2>&1; then

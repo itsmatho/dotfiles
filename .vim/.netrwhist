@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/mat/.vim'
 let g:netrw_dirhist_2='/home/mat/tritonuas/mozart/compositions/templates'
 let g:netrw_dirhist_3='/home/mat/tritonuas/loggo/docker'
 let g:netrw_dirhist_4='/home/mat/.local/share/gnome-shell/extensions'
 let g:netrw_dirhist_5='/home/mat/cse/cse150/pa5/w19pa5/hexadoku'
 let g:netrw_dirhist_6='/home/mat/tritonuas/hub/interop'
+let g:netrw_dirhist_7='/home/mat/Desktop/products/kitchen'
+let g:netrw_dirhist_8='/home/mat/.tmux'
